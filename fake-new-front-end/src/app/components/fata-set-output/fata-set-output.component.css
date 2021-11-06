@@ -1,0 +1,23 @@
+.data-set-output{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height: 20%;
+    justify-content: space-around;
+    margin-left: 45em;
+}
+
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.question{
+    color: #565656;
+}
+
+.answer{
+    color: red;
+}

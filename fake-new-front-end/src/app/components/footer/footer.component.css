@@ -1,0 +1,9 @@
+.my-footer{
+    background-color: #565656;
+    border: none;
+    margin: 0;
+    width: 100%;
+    padding: 1.5em;
+    bottom: 0;
+    position: fixed;
+}
