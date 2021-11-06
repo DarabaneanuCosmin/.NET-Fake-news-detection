@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Entities;
 
@@ -10,9 +13,9 @@ namespace WebAPI.Controllers.v1
     public class UserDataController: BaseController
     {
         [HttpPost]
-        public string Post()
+        public HttpResponseMessage Post()
         {
-            return "hi";
+            return new HttpResponseMessage(HttpStatusCode.Created);
         }
 
         [HttpGet]
