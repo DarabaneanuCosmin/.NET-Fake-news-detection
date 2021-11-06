@@ -2,7 +2,8 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - main
+      - Back-end
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
@@ -43,5 +44,4 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"DarabaneanuCosmin_.NET-Fake-news-detection" /o:"darabaneanucosmin" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
