@@ -1,0 +1,52 @@
+.log-in-comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    border: 1em #76323F solid;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 0;
+    background-color: #dfd7d0;
+}
+
+.text{
+    align-self: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #76323F;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text-subtitle{
+    font-size: medium;
+}
+
+.text-paragraph{
+    font-size: small;
+    margin-left: 1em;
+}
+
+.log-in-img{
+    background-color: white;
+    border: 1px #76323F solid;
+    border-radius: 50px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 30%;
+    padding: 0;
+}
+.log-in-img:hover{
+    background-color: rgb(222, 245, 220);
+}
+.log-in-img input{
+    margin-top: 1em;
+    width: 10%;
+    height: 10%;
+}

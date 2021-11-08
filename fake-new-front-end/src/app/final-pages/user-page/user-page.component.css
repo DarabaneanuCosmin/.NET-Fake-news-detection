@@ -1,0 +1,25 @@
+.central-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 80%;
+}
+
+app-last-inputs-user{
+    margin-top: 7em;
+    margin-right: 10em;
+    margin-bottom: 0;
+}
+
+app-fata-set-output{
+    margin-top: 0;
+    margin-left: 10em;
+}

@@ -28,6 +28,9 @@
     margin-right: 2em;
 }
 
+.btns button:hover{
+    background-color: #302f2f;
+}
 .btn{
     background-color: #565656;
     color: #d7cec7;  
@@ -35,5 +38,5 @@
     font-size: medium;
     margin-right: 1em;
     border: none;
-    padding: 0;
+    padding: 0 1em;
 }

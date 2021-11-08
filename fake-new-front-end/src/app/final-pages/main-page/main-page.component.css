@@ -1,0 +1,55 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 19%;
+    width: 60%;
+    height: 50%;
+}
+
+.output-part{
+    margin-left: 15em;
+}
+
+.log-in{
+    position: fixed;
+    top: 14em;
+    left: 30em;
+    width: 40%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+    display: none;
+}
+
+.log-in-on{
+    display: block;
+}
+
+.grey-bkg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(134, 133, 133, 0.637);
+    z-index: 2;
+    display: none;
+}
+.sign-in{
+    position: fixed;
+    top: 14em;
+    left: 30em;
+    width: 40%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+    display: none;
+}
+
+.sign-in-on{
+    display: block;
+}
