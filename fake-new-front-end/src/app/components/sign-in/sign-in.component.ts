@@ -12,4 +12,8 @@ export class SignInComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClickFunction(): void{
+    console.log("stuff");
+  }
+
 }
