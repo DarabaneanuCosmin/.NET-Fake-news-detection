@@ -1,7 +1,17 @@
 <div class="header-main">
-    <p class="page-title">Fake news detection</p>
+    <p class="page-title"> fake news detection </p>
     <div class="btns">
-    <button type="button" class="btn" id="log-in"> Log in</button>
-    <button type="button" class="btn" id="sign-in"> Sign in</button>
+        <button type="button" class="btn" id="home" routerLink = "/"> Home</button>
+        <button type="button" class="btn" id="profile" routerLink = "/profile"> Profile</button>
+        <button type="button" class="btn" id="log-in" (click)="open('log_in')"> Log in</button>
+        <button type="button" class="btn" id="sign-up" (click)="open('sign_up')"> Sign up</button>
     </div>
 </div>
+
+<modal id="log_in" class="hhidden">
+    <app-log-in></app-log-in>
+</modal>
+
+<modal id="sign_up" class="hhidden">
+    <app-sign-in></app-sign-in>
+</modal>

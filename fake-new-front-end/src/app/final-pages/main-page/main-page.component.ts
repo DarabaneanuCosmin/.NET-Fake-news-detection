@@ -10,6 +10,8 @@ export class MainPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let home  = document.getElementById('home')
+    home.style.display = 'none';
   }
 
 }

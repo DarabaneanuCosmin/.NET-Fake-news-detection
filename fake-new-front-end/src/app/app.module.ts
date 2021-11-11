@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DataSetInputComponent } from './components/data-set-input/data-set-input.component';
@@ -12,6 +12,8 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { MainPageComponent } from './final-pages/main-page/main-page.component';
 import { UserPageComponent } from './final-pages/user-page/user-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,14 @@ import { FooterComponent } from './components/footer/footer.component';
     SignInComponent,
     MainPageComponent,
     UserPageComponent,
-    FooterComponent
+    FooterComponent,
+    routingComponents,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

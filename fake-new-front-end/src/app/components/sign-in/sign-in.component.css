@@ -4,11 +4,9 @@
     justify-content: center;
     align-content: space-around;
     border: 1em #76323F solid;
-    border-radius: 10px;
+    border-radius: 15px;
     border-width: 5px;
     padding: 0;
-    width: 40%;
-    height: 30%;
     background-color: #dfd7d0;
 }
 
