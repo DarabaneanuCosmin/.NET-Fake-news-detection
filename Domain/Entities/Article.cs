@@ -2,7 +2,7 @@ using System;
 
 namespace WebAPI.Entities
 {
-    public class DataNews
+    public class Article
     {
         public string Title { get; set; }
         

@@ -19,9 +19,9 @@ namespace WebAPI.Controllers.v1
         }
 
         [HttpGet]
-        public IEnumerable<DataNews> Get(int id)
+        public IEnumerable<Article> Get(int id)
         {
-            return Enumerable.Range(1, 1).Select(index => new DataNews
+            return Enumerable.Range(1, 1).Select(index => new Article
             {
                 Title = "As U.S. budget fight looms, Republicans flip their fiscal script",
                 Text = "WASHINGTON (Reuters) - The head of a conservative Republican faction in the U.S. Congress, who voted...",
