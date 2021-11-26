@@ -18,9 +18,9 @@ export class HeaderComponent implements OnInit {
     this.http.get<IUser[]>(this.URL).subscribe(
       data =>{
         this.request = data;
-        console.log(data);
       },
       () => {},
+      () => this.update()
     );
    }
 
@@ -36,6 +36,12 @@ export class HeaderComponent implements OnInit {
       let modal_t  = document.getElementById(elem)
       modal_t.classList.remove('sshow')
       modal_t.classList.add('hhidden');
+  }
+
+  update() {
+    if (this.request[0] != null){
+      document.getElementById("user").innerHTML = "Logged in as " + this.request[0].email;
+    }
   }
 
 }

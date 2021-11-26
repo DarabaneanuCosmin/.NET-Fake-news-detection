@@ -12,4 +12,8 @@ export class DataSetInputComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClickSubmit(data){
+    console.log(data);
+  }
+
 }
