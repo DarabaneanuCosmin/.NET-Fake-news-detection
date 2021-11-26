@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { IUser } from 'src/app/final-pages/user-page/IUser';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  //private URL = 'https://localhost:4200/api/v1/UserAuthentification?email=darabaneanucosmin81@gmail.com';
+  private URL = "/assets/user.json";
+  request: any[];
+
+
+  constructor(private http:HttpClient) {
+    this.http.get<IUser[]>(this.URL).subscribe(
+      data =>{
+        this.request = data;
+        console.log(data);
+      },
+      () => {},
+    );
+   }
 
   ngOnInit(): void {
   }
