@@ -12,6 +12,7 @@ namespace WebAPI.Controllers.v1
         [HttpGet]
         public IEnumerable<Session> GetSession(string email)
         {
+            //serviciu
             return Enumerable.Range(1, 1).Select(index => new Session
             {
                 Email = "darabaneanucosmin81@gmail.com",

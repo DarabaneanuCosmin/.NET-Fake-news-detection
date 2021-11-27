@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {}
+    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
-        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\obj\\",
+        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -45,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
