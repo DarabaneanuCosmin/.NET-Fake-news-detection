@@ -14,14 +14,14 @@ export class LastInputsUserComponent implements OnInit {
   request: any[];
 
   constructor(private http:HttpClient) {
-    this.http.get<IData[]>(this.URL).subscribe(
-      data =>{
-        this.request = data;
-        console.log(data);
-      },
-      () => {},
-      () => this.test()
-    );
+    // this.http.get<IData[]>(this.URL).subscribe(
+    //   data =>{
+    //     this.request = data;
+    //     console.log(data);
+    //   },
+    //   () => {},
+    //   () => this.test()
+    // );
    }
 
    test():void {

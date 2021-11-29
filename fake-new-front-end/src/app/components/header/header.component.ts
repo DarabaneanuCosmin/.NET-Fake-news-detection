@@ -27,14 +27,14 @@ export class HeaderComponent implements OnInit {
 
 
   constructor(private http:HttpClient) {
-    this.http.get<IUser[]>(this.URL, this.requestOptions).subscribe(
-      data =>{
-        this.request = data;
-        console.log(data);
-      },
-      () => {},
-      () => this.update()
-    );
+    // this.http.get<IUser[]>(this.URL, this.requestOptions).subscribe(
+    //   data =>{
+    //     this.request = data;
+    //     console.log(data);
+    //   },
+    //   () => {},
+    //   () => this.update()
+    // );
    }
 
   ngOnInit(): void {

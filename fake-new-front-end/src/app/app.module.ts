@@ -16,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './components/modal/modal.component';
 import { HttpClientModule } from  '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { CookieModule, CookieOptionsProvider, CookieService } from 'ngx-cookie';
 
 @NgModule({
   declarations: [
@@ -37,9 +38,10 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    CookieModule.forRoot(),
   ],
-  providers: [],
+  providers: [CookieService, CookieOptionsProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
