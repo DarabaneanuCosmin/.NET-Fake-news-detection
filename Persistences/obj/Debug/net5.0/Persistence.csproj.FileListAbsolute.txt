@@ -10,3 +10,15 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Persistences\obj
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.deps.json
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\ref\Persistence.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb

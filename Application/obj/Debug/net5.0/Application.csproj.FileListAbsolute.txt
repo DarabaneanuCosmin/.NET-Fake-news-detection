@@ -10,3 +10,15 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Application\obj\
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.pdb
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\Application.deps.json
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\Application.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\ref\Application.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\Application.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\ref\Application.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.pdb

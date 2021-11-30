@@ -17,11 +17,12 @@ namespace WebAPI.Controllers.v1
             //serviciu
             return Enumerable.Range(1, 1).Select(index => new Session
             {
-                Email = "darabaneanucosmin81@gmail.com",
-                Username = "Cosmin",
+                Email_address = "darabaneanucosmin81@gmail.com",
+                FirstName = "Cosmin",
                 Token = "d1923nds4f"
             }).ToArray();
         }
+
 
         [EnableCors]
         [HttpPost]
@@ -30,11 +31,13 @@ namespace WebAPI.Controllers.v1
             return user;
         }
 
-        [EnableCors]
+
+        //mai incolo
+        /*[EnableCors]
         [HttpPut]
         public SessionRequest PutSession([FromBody] SessionRequest sessionRequest)
         {
             return sessionRequest;
-        }
+        }*/
     }
 }
