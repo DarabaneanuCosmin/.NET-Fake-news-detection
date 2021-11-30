@@ -2,7 +2,7 @@
 
 namespace WebAPI.Features.Queries
 {
-    class GetArticlesByIdQuery
+   public class GetArticlesByIdQuery
     {
         public string Title { get; set; }
 

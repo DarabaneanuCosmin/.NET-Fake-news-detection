@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using WebAPI.Entities;
 using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
+using WebAPI.Services;
+
 namespace WebAPI.Controllers.v1
 {
     [ApiController]
@@ -19,9 +21,9 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public HttpResponseMessage Post([FromBody] InsertArticleCommand insert, [FromServices] InsertArticleCommandHandler handler)
+        public HttpResponseMessage Post([FromBody] InsertArticleCommand insert,[FromServices] UserDataService userDataService)
         {
-            handler.InsertArticle(insert);
+            userDataService.postData(insert);
 
             return new HttpResponseMessage(HttpStatusCode.Created);
         }
