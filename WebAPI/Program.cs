@@ -5,6 +5,7 @@ using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
 using System.Web.Http;
 using WebAPI.Services;
+using Application.Features.Commands;
 
 namespace WebAPI
 {
@@ -14,7 +15,7 @@ namespace WebAPI
         {
             CreateHostBuilder(args).Build().Run();
         }
-     
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); })
@@ -22,6 +23,7 @@ namespace WebAPI
                     services.AddTransient<InsertArticleCommandHandler>()
                             .AddTransient<GetArticlesByIdQueryHandler>()
                             .AddTransient<UserDataService>()
-                            .AddTransient<UserAuthentificationService>());
+                            .AddTransient<UserAuthentificationService>()
+                            .AddTransient<InsertUserCommandHandler>());
     }
 }

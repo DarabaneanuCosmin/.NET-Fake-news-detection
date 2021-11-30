@@ -145,7 +145,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -202,6 +206,12 @@
             "projectReferences": {
               "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj"
+              },
+              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
               }
             }
           }
@@ -216,6 +226,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"

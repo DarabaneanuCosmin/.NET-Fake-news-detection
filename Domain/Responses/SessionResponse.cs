@@ -1,6 +1,6 @@
-﻿namespace WebAPI.Requests
+﻿namespace WebAPI.Responses
 {
-    public class SessionRequest
+    public class SessionResponse
     {
         public string Email { get; set; }
 

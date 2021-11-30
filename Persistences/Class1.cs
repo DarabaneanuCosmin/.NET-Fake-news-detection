@@ -1,4 +1,4 @@
-﻿namespace Persistence
+﻿namespace WebAPI
 {
     public class Class1
     {
