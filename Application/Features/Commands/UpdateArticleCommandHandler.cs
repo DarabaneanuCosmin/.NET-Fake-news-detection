@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Configuration;
+using WebAPI.Features.Config;
 
-namespace Application.Features.Commands
+namespace WebAPI.Features.Commands
 {
-    class UpdateArticleCommandHandler
+    class UpdateArticleCommandHandler : DbConfiguration
     {
+        public UpdateArticleCommandHandler(IConfiguration configuration) : base(configuration)
+        {
+        }
     }
 }

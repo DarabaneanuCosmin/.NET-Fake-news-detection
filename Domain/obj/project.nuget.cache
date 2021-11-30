@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3UyfBYmJKf0Nu3iL72AjbyOgolKQcDuxshTH0LaFJMu5P9rb511jpKPruxHCRtGnibZvkJ0gJ6TQaKPX8JPvDw==",
+  "dgSpecHash": "kIFHZCJMhW0UpKP2aE+6o1WROFQaqqbEtWumLybtemXLM6RLG8+FMtNar/oWuFjOGYx/K0K+XuJPjk8ePgXKbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\40750\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\40750\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\40750\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

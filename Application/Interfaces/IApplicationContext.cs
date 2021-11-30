@@ -1,5 +1,5 @@
 ﻿
-namespace Application.Interfaces
+namespace WebAPI.Interfaces
 {
     interface IApplicationContext
     {

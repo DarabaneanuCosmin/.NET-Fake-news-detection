@@ -1,12 +1,6 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace Application.Features.Queries
+namespace WebAPI.Features.Queries
 {
     class GetArticlesByIdQuery
     {
@@ -17,6 +11,6 @@ namespace Application.Features.Queries
         public string Subject { get; set; }
 
         public DateTime Date { get; set; }
-        
+
     }
 }

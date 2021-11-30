@@ -1,21 +1,19 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
+﻿using Microsoft.Extensions.Configuration;
+using MySql.Data.MySqlClient;
 using System.Threading.Tasks;
+using WebAPI.Features.Config;
 
-namespace WebApi.Features.Queries
+namespace WebAPI.Features.Queries
 {
-    class GetAllUsersQuery
+    public class GetAllUsersQuery: DbConfiguration
     {
+        public GetAllUsersQuery(IConfiguration configuration) : base(configuration)
+        {
+        }
+
         public async Task<string> GetArticle()
         {
-            using var connection = new MySqlConnection(ConfigurationManager.AppSettings["ConnectionStrings:Default"]);
-            await connection.OpenAsync();
-
-            using var command = new MySqlCommand("SELECT * FROM user;", connection);
+            using var command = new MySqlCommand("SELECT * FROM user;", null);
             using var reader = await command.ExecuteReaderAsync();
             reader.Read();
             var value = reader.GetString(1);
