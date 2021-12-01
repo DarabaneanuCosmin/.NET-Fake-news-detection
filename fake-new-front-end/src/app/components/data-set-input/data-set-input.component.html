@@ -1,6 +1,6 @@
 <div class="component-input">
     <p class="text"> Fill in the form with the contents of the news article you want to verify</p>
-    <form class="data-input-form" id="input-form" #inputform = "ngForm" (ngSubmit) = onClickSubmit(inputform.value)>
+    <form class="data-input-form" id="input-form" #inputform = "ngForm" (ngSubmit) = onClick(inputform.value)>
         <div class="first-part-of-form">
             <div class="form-group">
                 <label for="title"> Title </label>

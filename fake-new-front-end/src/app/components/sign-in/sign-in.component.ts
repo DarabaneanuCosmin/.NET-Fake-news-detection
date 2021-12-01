@@ -37,6 +37,7 @@ export class SignInComponent implements OnInit {
       if(!res.error){
         localStorage.setItem("user", res.token);
         this.router.navigate(['/profile']);
+        console.log(inputValue["password"]);
       }
       this.close_modal("sign_up");
 
