@@ -2,6 +2,7 @@
 using WebAPI.Features.Commands;
 using WebAPI.Assemblers;
 using WebAPI.Responses;
+using WebAPI.Features.Queries;
 
 namespace WebAPI.Services
 {
@@ -20,20 +21,25 @@ namespace WebAPI.Services
 
         InsertArticleCommandHandler InsertArticleCommandHandler;
         InsertArticleBuilder builder;
-        public InsertUserDataService([FromService] InsertArticleCommandHandler insertArticleCommandHandler, [FromService] InsertArticleBuilder builder)
+        IsUserWithIdQueryHandler isUserWithIdQueryHandler;
+        public InsertUserDataService(
+            [FromService] InsertArticleCommandHandler insertArticleCommandHandler,
+            [FromService] InsertArticleBuilder builder,
+            [FromService] IsUserWithIdQueryHandler isUserWithIdQueryHandler)
         {
             this.InsertArticleCommandHandler = insertArticleCommandHandler;
             this.builder = builder;
+            this.isUserWithIdQueryHandler = isUserWithIdQueryHandler;
         }
 
         public InsertArticleResponse Insert(InsertArticleCommand article)
         {
-            //IsUserWithIdQueryHandler isUserWithIdQueryHandler = [FromServiceAttribute] IsUserWithIdQueryHandler user;
-            /*if (isUserWithIdQueryHandler.IsUserWithId(article.id_user))
+            var error = true;
+            if (isUserWithIdQueryHandler.IsUserWithId(article.id_user))
             {
-
-            }*/
-            var error = InsertArticleCommandHandler.InsertArticle(article);
+                error = !InsertArticleCommandHandler.InsertArticle(article);
+            }
+            
             return this.builder.builder(error);
         }
     }

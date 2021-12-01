@@ -4,6 +4,8 @@ using WebAPI.Responses;
 using WebAPI.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Application.Features.Queries;
+using System;
 
 namespace WebAPI.Services
 {
@@ -11,14 +13,19 @@ namespace WebAPI.Services
     {
         GetArticlesByUserIdQueryHandler getArticlesByUserIdQueryHandler;
         GetArticlesBuilder builder;
+        GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
 
-        public GetArticlesService([FromService] GetArticlesByUserIdQueryHandler getArticlesByUserIdQueryHandler, [FromService] GetArticlesBuilder builder)
+        public GetArticlesService(
+            [FromService] GetArticlesByUserIdQueryHandler getArticlesByUserIdQueryHandler,
+            [FromService] GetArticlesBuilder builder,
+            [FromService] GetUserIdByUserTokenHandler getUserIdByUserTokenHandler)
         {
             this.getArticlesByUserIdQueryHandler = getArticlesByUserIdQueryHandler;
             this.builder = builder;
+            this.getUserIdByUserTokenHandler = getUserIdByUserTokenHandler;
         }
 
-        public GetArticlesResponse GetArticles(GetArticlesByUserIdQuery user_id)
+        public GetArticlesResponse GetArticles(string token)
         {
             //IsUserWithIdQueryHandler isUserWithIdQueryHandler = [FromServiceAttribute] IsUserWithIdQueryHandler user;
             /*if (isUserWithIdQueryHandler.IsUserWithId(article.id_user))
@@ -26,7 +33,12 @@ namespace WebAPI.Services
 
             }*/
             //Task<List<Article>>
-            Task<List<Article>> articles = getArticlesByUserIdQueryHandler.GetArticlesByUserId(user_id);
+            //compute userid by usertoken
+            byte[] id = getUserIdByUserTokenHandler.GetUserIdByUserToken(token);
+            //Guid user_id = new Guid(id); 
+            Guid user_id = Guid.Parse(System.Text.Encoding.UTF8.GetString(id)); ;
+            GetArticlesByUserIdQuery getArticlesByUserIdQuery = new GetArticlesByUserIdQuery(user_id);
+            List<Article> articles = getArticlesByUserIdQueryHandler.GetArticlesByUserId(getArticlesByUserIdQuery);
 
             return this.builder.builder(articles);
         }

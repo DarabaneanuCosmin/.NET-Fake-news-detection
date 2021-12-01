@@ -5,6 +5,7 @@ using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
 using WebAPI.Services;
 using WebAPI.Assemblers;
+using Application.Features.Queries;
 
 namespace WebAPI
 {
@@ -30,6 +31,9 @@ namespace WebAPI
                             .AddTransient<AuthentificationBuilder>()
                             .AddTransient<GetUserAuthDataQueryHandler>()
                             .AddTransient<IsEmailUsed>()
-                            .AddTransient<UpdateUserTokenCommandHandler>());
+                            .AddTransient<UpdateUserTokenCommandHandler>()
+                            .AddTransient<IsUserWithIdQueryHandler>()
+                            .AddTransient<GetUserIdByUserTokenHandler>());
+        
     }
 }

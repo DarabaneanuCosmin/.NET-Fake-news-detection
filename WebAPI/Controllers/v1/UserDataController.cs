@@ -31,15 +31,15 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpGet]
-        /*public async GetArticlesResponse GetArticlesAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesService articlesService)
+        public GetArticlesResponse GetArticlesAsync([FromQuery] String token, [FromServices] GetArticlesService articlesService)
         {
-            return await articlesService.GetArticles(id);
+            return  articlesService.GetArticles(token);
             //return await query.GetArticlesByUserId(id);
-        }*/
+        }
 
-        public async Task<List<Article>> GetAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesByUserIdQueryHandler query)
+        /*public async Task<List<Article>> GetAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesByUserIdQueryHandler query)
         {
             return await query.GetArticlesByUserId(id);
-        }
+        }*/
     }
 }

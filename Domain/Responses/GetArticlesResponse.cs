@@ -7,8 +7,8 @@ namespace WebAPI.Responses
 {
     public class GetArticlesResponse
     {
-        public Task<List<Article>> articles;
+        public List<Article> articles { get; set; }
 
-        public bool error { get; set; } = false;
+        public bool error { get; set; }
     }
 }

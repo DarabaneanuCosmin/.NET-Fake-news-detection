@@ -5,34 +5,33 @@ using System.Collections.Generic;
 using WebAPI.Entities;
 using WebAPI.Features.Config;
 
-namespace WebAPI.Features.Queries
+namespace Application.Features.Queries
 {
-    public class IsUserWithIdQueryHandler : DbConfiguration
+    public class GetUserIdByUserTokenHandler : DbConfiguration
     {
         public MySqlConnection connection;
 
-        public IsUserWithIdQueryHandler(IConfiguration configuration) : base(configuration)
+        public GetUserIdByUserTokenHandler(IConfiguration configuration) : base(configuration)
         {
         }
 
-        public bool IsUserWithId(Guid query)
+        public byte[] GetUserIdByUserToken(String token)
         {
+            byte[] user_id = new byte[16];
             try
             {
+                
                 this.connection = new MySqlConnection(this.connectionString);
                 connection.Open();
-
-                using var command = new MySqlCommand("SELECT * FROM user WHERE user.id = " + "@id", this.connection);
-                command.Parameters.AddWithValue("@id", query);
+                using var command = new MySqlCommand("SELECT user.id FROM user WHERE user.token = " + "@token", this.connection);
+                command.Parameters.AddWithValue("@token", token);
                 MySqlDataReader rdr = command.ExecuteReader();
-                while ( rdr.Read())
+                while (rdr.Read())
                 {
-                    if (rdr.GetFieldValue<byte[]>(0).Length > 0 )
-                        return true;
-                    return false;
+                    user_id = rdr.GetFieldValue<byte[]>(0);
                 }
                 rdr.Close();
-                return true;
+                return user_id;
             }
             catch (MySqlException ex)
             {

@@ -6,5 +6,10 @@ namespace WebAPI.Features.Queries
     {
         public Guid Id_user { get; set; }
 
+        public GetArticlesByUserIdQuery(Guid id)
+        {
+            Id_user = id;
+        }
+
     }
 }
