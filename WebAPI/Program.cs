@@ -6,6 +6,7 @@ using WebAPI.Features.Queries;
 using System.Web.Http;
 using WebAPI.Services;
 using Application.Features.Commands;
+using WebAPI.Assemblers;
 
 namespace WebAPI
 {
@@ -24,6 +25,7 @@ namespace WebAPI
                             .AddTransient<GetArticlesByIdQueryHandler>()
                             .AddTransient<UserDataService>()
                             .AddTransient<UserAuthentificationService>()
-                            .AddTransient<InsertUserCommandHandler>());
+                            .AddTransient<InsertUserCommandHandler>()
+                            .AddTransient<AuthentificationAssembler>());
     }
 }

@@ -17,15 +17,15 @@ namespace Application.Features.Commands
         {
         }
 
-        public async bool insertUserDataAsync(InsertUserCommand insertUserCommand, string token, Guid guid)
+        public bool insertUserDataAsync(InsertUserCommand insertUserCommand, string token)
         {
             try
             {
                 this.connection = new MySqlConnection(this.connectionString);
-                await this.connection.OpenAsync();
+                this.connection.OpenAsync();
                 MySqlCommand cmd = new MySqlCommand("Insert into user (id,token, email_address, first_name, last_name, password)" +
                     " values(@id,@token, @email_address, @first_name, @last_name, @password)", this.connection);
-                cmd.Parameters.AddWithValue("@id", )
+                cmd.Parameters.AddWithValue("@id", Guid.NewGuid());
                 cmd.Parameters.AddWithValue("@token", token);
                 cmd.Parameters.AddWithValue("@email_address", insertUserCommand.email_address);
                 cmd.Parameters.AddWithValue("@first_name", insertUserCommand.first_name);
@@ -33,7 +33,7 @@ namespace Application.Features.Commands
                 cmd.Parameters.AddWithValue("@password", insertUserCommand.password);
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
-                return true;
+                return false;
 
             }
             catch (MySqlException ex)
@@ -42,7 +42,7 @@ namespace Application.Features.Commands
                     Console.WriteLine("IOException source: {0}", ex.Source);
                 throw;
             }
-            return false;
+
         }
     }
 }

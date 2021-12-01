@@ -190,3 +190,4 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Services.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Services.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\JWT.dll
