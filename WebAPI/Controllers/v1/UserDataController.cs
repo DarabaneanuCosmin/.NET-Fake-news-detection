@@ -22,7 +22,7 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public HttpResponseMessage InsertUserData([FromBody] InsertArticleCommand insert, [FromServices] InsertUserDataService userDataService)
+        public HttpResponseMessage InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] InsertUserDataService userDataService)
         {
             userDataService.Insert(insert);
 
