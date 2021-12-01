@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebAPI.Features.Commands
+namespace WebAPI.Features.Queries
 {
-    public class InsertUserCommand
+    public class GetUserAuthDataQuery
     {
         public string email_address { get; set; }
-        public string first_name { get; set; }
-        public string last_name { get; set; }
         public string password { get; set; }
 
     }

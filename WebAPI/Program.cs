@@ -3,9 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
-using System.Web.Http;
 using WebAPI.Services;
-using Application.Features.Commands;
 using WebAPI.Assemblers;
 
 namespace WebAPI
@@ -29,6 +27,9 @@ namespace WebAPI
                             .AddTransient<InsertUserDataService>()
                             .AddTransient<GetArticlesBuilder>()
                             .AddTransient<GetArticlesService>()
-                            .AddTransient<AuthentificationAssembler>());
+                            .AddTransient<AuthentificationBuilder>()
+                            .AddTransient<GetUserAuthDataQueryHandler>()
+                            .AddTransient<IsEmailUsed>()
+                            .AddTransient<UpdateUserTokenCommandHandler>());
     }
 }

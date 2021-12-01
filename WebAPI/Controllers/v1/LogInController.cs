@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using WebAPI.Entities;
+using WebAPI.Features.Queries;
+using WebAPI.Responses;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers.v1
 {
@@ -11,16 +14,10 @@ namespace WebAPI.Controllers.v1
     public class LogInController : BaseController
     {
         [EnableCors]
-        [HttpGet]
-        public IEnumerable<Session> GetSession(string email)
+        [HttpPost]
+        public AuthenticationResponse LogIn([FromBody] GetUserAuthDataQuery user, [FromServices] UserAuthentificationService userAuthentificationService)
         {
-            //serviciu
-            return Enumerable.Range(1, 1).Select(index => new Session
-            {
-                Email_address = "darabaneanucosmin81@gmail.com",
-                FirstName = "Cosmin",
-                Token = "d1923nds4f"
-            }).ToArray();
+            return userAuthentificationService.LogIn(user);
         }
     }
 }

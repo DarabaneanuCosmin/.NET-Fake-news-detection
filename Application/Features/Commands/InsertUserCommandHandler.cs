@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebAPI.Features.Config;
 
-namespace Application.Features.Commands
+namespace WebAPI.Features.Commands
 {
     public class InsertUserCommandHandler : DbConfiguration
     {
@@ -30,7 +30,7 @@ namespace Application.Features.Commands
                 cmd.Parameters.AddWithValue("@email_address", insertUserCommand.email_address);
                 cmd.Parameters.AddWithValue("@first_name", insertUserCommand.first_name);
                 cmd.Parameters.AddWithValue("@last_name", insertUserCommand.last_name);
-                cmd.Parameters.AddWithValue("@password", insertUserCommand.password);
+                cmd.Parameters.AddWithValue("@password", Security.EncryptString(insertUserCommand.password));
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
                 return false;
