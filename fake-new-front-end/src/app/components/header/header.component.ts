@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { IUser } from 'src/app/final-pages/user-page/IUser';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   private URL = 'https://localhost:5001/api/v1/UserAuthentification?email=darabaneanucosmin81@gmail.com';
   //private URL = "/assets/user.json";
   request: any[];
+  email = localStorage.getItem("fakenewsemail");
 
   private headerDict = {
     'Content-Type': 'application/json',
@@ -23,18 +24,8 @@ export class HeaderComponent implements OnInit {
   private requestOptions = {                                                                                                                                                                                 
     headers: new HttpHeaders(this.headerDict), 
   };
-  
 
-
-  constructor(private http:HttpClient) {
-    // this.http.get<IUser[]>(this.URL, this.requestOptions).subscribe(
-    //   data =>{
-    //     this.request = data;
-    //     console.log(data);
-    //   },
-    //   () => {},
-    //   () => this.update()
-    // );
+  constructor(private http:HttpClient, private router:Router) {
    }
 
   ngOnInit(): void {
@@ -55,6 +46,10 @@ export class HeaderComponent implements OnInit {
     if (this.request[0] != null){
       document.getElementById("user").innerHTML = "Logged in as " + this.request[0].email;
     }
+  }
+
+  move() {
+    this.router.navigate(['/']);
   }
 
 }

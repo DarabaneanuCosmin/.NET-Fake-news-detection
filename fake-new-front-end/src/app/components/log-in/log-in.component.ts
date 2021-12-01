@@ -30,6 +30,7 @@ export class LogInComponent implements OnInit {
     }, {headers}).subscribe( res => {
       if(!res.error){
         localStorage.setItem("user", res.token);
+        localStorage.setItem("fakenewsemail", inputValue["email-address"]);
         this.router.navigate(['/profile']);
       }
       this.close_modal("log_in");
