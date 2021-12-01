@@ -1,54 +1,47 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, NgZone, OnInit, Renderer2, ResolvedReflectiveFactory } from '@angular/core';
-import { Meta } from '@angular/platform-browser';
-import { CookieOptions, CookieOptionsProvider, CookieService, COOKIE_OPTIONS } from 'ngx-cookie';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ISingIn } from 'src/assets/singInInterface';
 
 
 @Component({
   selector: 'app-log-in',
   templateUrl: './log-in.component.html',
   styleUrls: ['./log-in.component.css'],
-  providers: [CookieService]
 })
 export class LogInComponent implements OnInit {
+  private URL = 'https://localhost:5001/api/v1/UserAuthentification';
+
+  constructor(private http:HttpClient,
+    private router: Router) { }
+
+  ngOnInit(): void {}
+  onClick(inputValue){
+     const headers = {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Origin':  'https://localhost:5001/api/v1/'
+    }
   
-  constructor(private metaService: Meta, 
-    @Inject(DOCUMENT) private doc : Document,
-    private renderer: Renderer2,
-    ngZone : NgZone,
-    private cookieService: CookieService,
-    private cookieOptions: CookieOptionsProvider
-    ) { 
-    window['onSignIn'] = user => ngZone.run(
-      () => {
-        this.afterSignUp(user);
+    this.http.post<ISingIn>(this.URL,{
+      email: inputValue["email-address"],
+      password: inputValue["password"]
+    }, {headers}).subscribe( res => {
+      if(res.response == "The user has been logged in."){
+        localStorage.setItem("user", res.token);
+        this.router.navigate(['/profile']);
       }
-    );
+      this.close_modal("log_in");
+      console.log("Wrong user.");
 
+    });
   }
+  
+  close_modal(elem: string) {
+    let modal_t  = document.getElementById(elem)
+    modal_t.classList.remove('sshow')
+    modal_t.classList.add('hhidden');
+}
 
-  ngOnInit(): void {
-    this.metaService.addTags([
-      {name: 'google-signin-client_id',
-      content: '1002279406968-rfqbf903rkhdtcosaat3m4vt3dnk96tm.apps.googleusercontent.com'}
-    ]);
-
-    let script = this.renderer.createElement('script');
-    script.src = "https://apis.google.com/js/platform.js";
-    
-    script.defer = true;
-    script.async = true;
-    this.renderer.appendChild(this.doc.body, script); 
-
-   // let cookieOption = { SameSite:"None"} as CookieOptions;
-    //this.cookieService.put("G_AUTHUSER_H", "0", cookieOption);
-    //console.log(this.cookieService.getAll());
-  }
-
-
-
-  afterSignUp(googleUser){
-    console.log("da");
-    console.log(googleUser);
-  }
 }

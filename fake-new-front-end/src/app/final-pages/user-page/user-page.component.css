@@ -23,3 +23,7 @@ app-fata-set-output{
     margin-top: 0;
     margin-left: 10em;
 }
+
+.hide-btn{
+    display: none;
+}

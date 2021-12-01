@@ -4,9 +4,9 @@
     justify-content: center;
     align-content: space-around;
     border: 1em #76323F solid;
-    border-radius: 15px;
+    border-radius: 10px;
     border-width: 5px;
-    padding: 0;
+    padding: 1em;
     background-color: #dfd7d0;
 }
 
@@ -29,24 +29,32 @@
     margin-left: 1em;
 }
 
-.log-in-img{
-    background-color: white;
-    border: 1px #76323F solid;
-    border-radius: 50px;
-    align-self: center;
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-part{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    width: 30%;
+    justify-content: space-around;
+}
+
+.small-part{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.btn-text{
+    margin: 0;
     padding: 0;
 }
-.log-in-img:hover{
-    background-color: rgb(222, 245, 220);
-}
-.log-in-img input{
-    margin-top: 1em;
-    width: 10%;
-    height: 10%;
+
+.my-btn{
+    background-color: #76323F;
+    border: none;
+    width: 30%;
+    align-self: center;
 }

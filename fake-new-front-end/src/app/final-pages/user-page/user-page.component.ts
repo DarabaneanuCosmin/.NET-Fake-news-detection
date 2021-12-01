@@ -7,15 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+ }
 
   ngOnInit(): void {
-    let profile = document.getElementById('profile');
     let login = document.getElementById('log-in');
     let signup = document.getElementById('sign-up');
-    profile.style.display = 'none';
-    login.style.display = 'none';
-    signup.style.display = 'none';
+    login.classList.add("hide-btn");
+    signup.classList.add("hide-btn");
   }
 
 }

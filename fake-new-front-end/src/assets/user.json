@@ -2,6 +2,7 @@
     {
         "email": "test@gmail.com",
         "username": "Cosmin",
-        "token": "d1923nds4f"
+        "firstName": "Cosmin",
+        "lastName": "Darabaneanu"
     }
 ]

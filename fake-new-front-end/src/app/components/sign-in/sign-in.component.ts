@@ -1,6 +1,7 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, NgZone, OnInit, Renderer2 } from '@angular/core';
-import { Meta } from '@angular/platform-browser';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit} from '@angular/core';
+import { Router } from '@angular/router';
+import { ISingIn } from 'src/assets/singInInterface';
 
 @Component({
   selector: 'app-sign-in',
@@ -9,31 +10,42 @@ import { Meta } from '@angular/platform-browser';
 })
 export class SignInComponent implements OnInit {
 
-  constructor(private metaService: Meta, 
-    @Inject(DOCUMENT) private doc : Document,
-    private renderer: Renderer2,
-    ngZone : NgZone) { 
-    window['onSignIn'] = user => ngZone.run(
-      () => {
-        this.afterSignUp(user);
-      }
-    );
-  }
+  private URL = 'https://localhost:5001/api/v1/UserAuthentification';
 
+  constructor(private http:HttpClient,
+    private router: Router) {
+   }
+   
   ngOnInit(): void {
-    // this.metaService.addTags([
-    //   {name: 'google-signin-client_id',
-    //   content: '1002279406968-rfqbf903rkhdtcosaat3m4vt3dnk96tm.apps.googleusercontent.com'}
-    // ]);
 
-    // let script = this.renderer.createElement('script');
-    // script.src = "https://apis.google.com/js/platform.js";
-    // script.defer = true;
-    // script.async = true;
-    // this.renderer.appendChild(document.body, script); 
   }
 
-  afterSignUp(googleUser){
-    console.log(googleUser);
+  onClick(inputValue){
+    const headers = {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Origin':  'https://localhost:5001/api/v1/'
+    }
+  
+    this.http.post<ISingIn>(this.URL,{
+      email: inputValue["email-address"],
+      password: inputValue["password"],
+      firstName: inputValue["first-name"],
+      lastName: inputValue["last-name"]
+    }, {headers}).subscribe( res => {
+      if(res.response == "The user has been added."){
+        localStorage.setItem("user", res.token);
+        this.router.navigate(['/profile']);
+      }
+      this.close_modal("sign_up");
+
+    });
   }
+  close_modal(elem: string) {
+    let modal_t  = document.getElementById(elem)
+    modal_t.classList.remove('sshow')
+    modal_t.classList.add('hhidden');
+}
+
 }

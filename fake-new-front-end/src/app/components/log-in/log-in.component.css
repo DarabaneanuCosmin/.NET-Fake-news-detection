@@ -4,9 +4,9 @@
     justify-content: center;
     align-content: space-around;
     border: 1em #76323F solid;
-    border-radius: 15px;
+    border-radius: 10px;
     border-width: 5px;
-    padding: 0;
+    padding: 1em;
     background-color: #dfd7d0;
 }
 
@@ -29,14 +29,33 @@
     margin-left: 1em;
 }
 
-.log-in-img{
-    border: none;
-    align-self: center;
+.form-group{
+    width: 45%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-part{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    width: 40%;
-    padding: 0;
+    justify-content: space-around;
+}
+
+.small-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.my-btn{
+    background-color: #76323F;
+    border:none;
+    width: 30%;
+    justify-self: center;
+    align-self: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
