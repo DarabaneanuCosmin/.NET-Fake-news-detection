@@ -1,30 +1,30 @@
 <div class="log-in-comp">
     <p class="text">We are happy to see you!</p>
-    <form class="data-input-form" id="input-form" #inputform="ngForm" (ngSubmit)=onClick(inputform.value)>
+    <form class="data-input-form" #inputform="ngForm" (ngSubmit)=onClick(inputform.value)>
         <div class="first-part">
           <div class="small-part">
             <div class="form-group">
               <label for="title"> First Name </label>
-              <input type="text" class="form-control" id="first-name" name="first-name" ngModel>
+              <input type="text" class="form-control"  name="first-name" ngModel>
             </div>
             <div class="form-group">
               <label for="title"> Last Name </label>
-              <input type="text" class="form-control" id="last-name" name="last-name" ngModel>
+              <input type="text" class="form-control" name="last-name" ngModel>
             </div>
           </div>
           <div class="small-part">
             <div class="form-group">
               <label for="subject"> Email address </label>
-              <input type="text" class="form-control" id="email-address" name="email-address" ngModel>
+              <input type="text" class="form-control" name="email-address" ngModel>
             </div>
             <div class="form-group">
               <label for="subject"> Password </label>
-              <input type="password" class="form-control" id="password" name="password" ngModel>
+              <input type="password" class="form-control" name="password" ngModel>
             </div>
           </div>
         </div>
         <button type="submit" class="btn btn-primary my-btn">
-          <p class="btn-text"> Log in </p>
+          <p class="btn-text"> Sign in </p>
         </button>
         </form>
 

@@ -1,4 +1,4 @@
 export interface ISingIn {
-    response: string;
+    error: boolean;
     token: string;
 }

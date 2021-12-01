@@ -10,7 +10,7 @@ import { ISingIn } from 'src/assets/singInInterface';
   styleUrls: ['./log-in.component.css'],
 })
 export class LogInComponent implements OnInit {
-  private URL = 'https://localhost:5001/api/v1/UserAuthentification';
+  private URL = 'http://localhost:5000/api/v1/LogIn';
 
   constructor(private http:HttpClient,
     private router: Router) { }
@@ -21,14 +21,14 @@ export class LogInComponent implements OnInit {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
       'Access-Control-Allow-Headers': 'Content-Type',
-      'Access-Control-Allow-Origin':  'https://localhost:5001/api/v1/'
+      'Access-Control-Allow-Origin':  'http://localhost:5000/api/v1/'
     }
-  
+
     this.http.post<ISingIn>(this.URL,{
-      email: inputValue["email-address"],
+      email_address: inputValue["email-address"],
       password: inputValue["password"]
     }, {headers}).subscribe( res => {
-      if(res.response == "The user has been logged in."){
+      if(!res.error){
         localStorage.setItem("user", res.token);
         this.router.navigate(['/profile']);
       }
