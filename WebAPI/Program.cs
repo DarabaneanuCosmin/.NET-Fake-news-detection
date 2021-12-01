@@ -22,10 +22,13 @@ namespace WebAPI
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); })
                 .ConfigureServices((_, services) =>
                     services.AddTransient<InsertArticleCommandHandler>()
-                            .AddTransient<GetArticlesByIdQueryHandler>()
-                            .AddTransient<UserDataService>()
+                            .AddTransient<GetArticlesByUserIdQueryHandler>()
                             .AddTransient<UserAuthentificationService>()
                             .AddTransient<InsertUserCommandHandler>()
+                            .AddTransient<InsertArticleBuilder>()
+                            .AddTransient<InsertUserDataService>()
+                            .AddTransient<GetArticlesBuilder>()
+                            .AddTransient<GetArticlesService>()
                             .AddTransient<AuthentificationAssembler>());
     }
 }

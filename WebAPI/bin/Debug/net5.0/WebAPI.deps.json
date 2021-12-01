@@ -1647,6 +1647,7 @@
       },
       "Application/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "MySql.Data": "8.0.27"
         },

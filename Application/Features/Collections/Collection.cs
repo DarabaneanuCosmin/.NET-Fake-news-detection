@@ -10,6 +10,6 @@ namespace WebAPI.Features.Collections
     public class Collection
     {
         public bool error { get; set; }
-        public GetArticlesByIdQuery[] getArticles { get; set; }
+        public GetArticlesByUserIdQuery[] getArticles { get; set; }
     }
 }

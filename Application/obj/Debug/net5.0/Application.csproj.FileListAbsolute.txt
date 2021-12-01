@@ -34,3 +34,6 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.pdb
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\Domain.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\bin\Debug\net5.0\Domain.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Application\obj\Debug\net5.0\Application.csproj.CopyComplete

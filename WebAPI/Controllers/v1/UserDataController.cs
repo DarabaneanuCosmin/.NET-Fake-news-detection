@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using WebAPI.Entities;
 using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
+using WebAPI.Responses;
 using WebAPI.Services;
 
 namespace WebAPI.Controllers.v1
@@ -21,26 +22,24 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public HttpResponseMessage Post([FromBody] InsertArticleCommand insert,[FromServices] UserDataService userDataService)
+        public HttpResponseMessage InsertUserData([FromBody] InsertArticleCommand insert, [FromServices] InsertUserDataService userDataService)
         {
-            userDataService.postData(insert);
+            userDataService.Insert(insert);
 
             return new HttpResponseMessage(HttpStatusCode.Created);
         }
 
         [EnableCors]
         [HttpGet]
-        public async Task<string> GetAsync(int id, [FromServices] GetArticlesByIdQueryHandler query)
+        /*public async GetArticlesResponse GetArticlesAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesService articlesService)
         {
-            return await query.GetArticle();
-            /*return Enumerable.Range(1, 1).Select(index => new Article
-            {
+            return await articlesService.GetArticles(id);
+            //return await query.GetArticlesByUserId(id);
+        }*/
 
-                Title = "As U.S. budget fight looms, Republicans flip their fiscal script",
-                Text = "WASHINGTON (Reuters) - The head of a conservative Republican faction in the U.S. Congress, who voted...",
-                Subject = "politicsNews",
-                Date = new DateTime(2017, 12, 31)
-            }).ToArray();*/
+        public async Task<List<Article>> GetAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesByUserIdQueryHandler query)
+        {
+            return await query.GetArticlesByUserId(id);
         }
     }
 }

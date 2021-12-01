@@ -13,6 +13,6 @@ namespace WebAPI.Features.Commands
 
         public string subject { get; set; }
 
-        public string date_time { get; set; }
+        public string date_article { get; set; }
     }
 }
