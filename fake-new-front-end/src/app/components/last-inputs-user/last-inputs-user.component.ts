@@ -10,7 +10,7 @@ import { waitForAsync } from '@angular/core/testing';
   encapsulation: ViewEncapsulation.None
 })
 export class LastInputsUserComponent implements OnInit {
-  private URL = "/assets/history.json";
+  private URL = "http://localhost:5000/api/v1/UserData?token=" + localStorage.getItem("user");
   request: any[];
 
   constructor(private http:HttpClient) {
@@ -18,9 +18,7 @@ export class LastInputsUserComponent implements OnInit {
     //   data =>{
     //     this.request = data;
     //     console.log(data);
-    //   },
-    //   () => {},
-    //   () => this.test()
+    //   
     // );
    }
 
