@@ -14,19 +14,16 @@ namespace WebAPI.Services
     {
         GetUserAuthDataQueryHandler GetUserAuthDataQueryHandler { get; set; }
         InsertUserCommandHandler insertUserCommandHandler { get; set; }
-        AuthentificationBuilder builder { get; set; }
         IsEmailUsed isEmailUsed { get; set; }
         UpdateUserTokenCommandHandler updateUserTokenCommandHandler { get; set; }
         public UserAuthentificationService(
             [FromService] InsertUserCommandHandler insertUserCommandHandler,
-            [FromService] AuthentificationBuilder builder,
             [FromService] GetUserAuthDataQueryHandler getUserAuthDataQueryHandler,
             [FromService] IsEmailUsed isEmailUsed,
             [FromService] UpdateUserTokenCommandHandler updateUserTokenCommandHandler
             )
         {
             this.insertUserCommandHandler = insertUserCommandHandler;
-            this.builder = builder;
             this.GetUserAuthDataQueryHandler = getUserAuthDataQueryHandler;
             this.isEmailUsed = isEmailUsed;
             this.updateUserTokenCommandHandler = updateUserTokenCommandHandler;
@@ -37,9 +34,9 @@ namespace WebAPI.Services
             {
                 var token = generateToken(user.email_address);
                 var error = insertUserCommandHandler.insertUserDataAsync(user, token);
-                return this.builder.builder(token, error);
+                return AuthentificationBuilder.builder(token, error);
             }
-            return this.builder.builder("", true);
+            return AuthentificationBuilder.builder("", true);
         }
 
         public AuthenticationResponse LogIn(GetUserAuthDataQuery userData)
@@ -53,7 +50,7 @@ namespace WebAPI.Services
                 token = generateToken(userData.email_address);
                 updateUserTokenCommandHandler.updateUser(isUser.id, token);
             }
-            return this.builder.builder(token, error);
+            return AuthentificationBuilder.builder(token, error);
         }
 
         public static string generateToken(string email)

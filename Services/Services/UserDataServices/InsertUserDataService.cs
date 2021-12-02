@@ -13,17 +13,14 @@ namespace WebAPI.Services
     {
 
         readonly InsertArticleCommandHandler InsertArticleCommandHandler;
-        readonly InsertArticleBuilder builder;
         readonly IsUserWithIdQueryHandler isUserWithIdQueryHandler;
         readonly GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
         public InsertUserDataService(
             [FromService] InsertArticleCommandHandler insertArticleCommandHandler,
-            [FromService] InsertArticleBuilder builder,
             [FromService] IsUserWithIdQueryHandler isUserWithIdQueryHandler,
             [FromService] GetUserIdByUserTokenHandler getUserIdByUserTokenHandler)
         {
             this.InsertArticleCommandHandler = insertArticleCommandHandler;
-            this.builder = builder;
             this.isUserWithIdQueryHandler = isUserWithIdQueryHandler;
             this.getUserIdByUserTokenHandler = getUserIdByUserTokenHandler;
         }
@@ -43,8 +40,8 @@ namespace WebAPI.Services
             {
                 error = !InsertArticleCommandHandler.InsertArticle(article);
             }
-            
-            return this.builder.builder(error);
+
+            return InsertArticleBuilder.builder(error);
         }
     }
 }

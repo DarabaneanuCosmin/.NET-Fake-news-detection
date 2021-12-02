@@ -9,7 +9,7 @@ namespace WebAPI.Assemblers
 {
     public class AuthentificationBuilder
     {
-        public AuthenticationResponse builder(string token, bool error)
+        public static AuthenticationResponse builder(string token, bool error)
         {
             var response = new AuthenticationResponse();
             response.token = token;
