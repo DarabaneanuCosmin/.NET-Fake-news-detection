@@ -31,7 +31,7 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpGet]
-        public GetArticlesResponse GetArticlesAsync([FromQuery] String token, [FromServices] GetArticlesService articlesService)
+        public GetArticlesResponse GetArticles([FromQuery] String token, [FromServices] GetArticlesService articlesService)
         {
             return  articlesService.GetArticles(token);
             //return await query.GetArticlesByUserId(id);
