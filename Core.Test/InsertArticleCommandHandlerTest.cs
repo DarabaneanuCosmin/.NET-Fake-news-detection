@@ -4,7 +4,7 @@ using System;
 using WebAPI.Features.Commands;
 using Xunit;
 
-namespace Presentation.Test
+namespace Core.Test
 {
     public class InsertArticleCommandHandlerTest
     {
@@ -12,11 +12,6 @@ namespace Presentation.Test
 
         public InsertArticleCommandHandlerTest()
         {
-            /*var services = new ServiceCollection();
-            services.AddTransient<InsertArticleCommandHandler>();
-            services.AddTransient<IConfiguration>();
-            var serviceProvider = services.BuildServiceProvider();
-            insertArticleCommandHandler = serviceProvider.GetService<InsertArticleCommandHandler>();*/
             var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
             insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
         }
