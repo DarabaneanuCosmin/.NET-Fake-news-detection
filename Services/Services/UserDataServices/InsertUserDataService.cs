@@ -5,26 +5,17 @@ using WebAPI.Responses;
 using WebAPI.Features.Queries;
 using Application.Features.Queries;
 using System;
+using Services.Services;
 
 namespace WebAPI.Services
 {
     public class InsertUserDataService
     {
-        /*InsertArticleCommandHandler handler;
-        public UserDataService([FromServices] InsertArticleCommandHandler handler)
-        {
-            this.handler = handler;
-        }
-        public bool postData(InsertArticleCommand insert)
-        {
-            this.handler.InsertArticle(insert);
-            return true;
-        }*/
 
-        InsertArticleCommandHandler InsertArticleCommandHandler;
-        InsertArticleBuilder builder;
-        IsUserWithIdQueryHandler isUserWithIdQueryHandler;
-        GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
+        readonly InsertArticleCommandHandler InsertArticleCommandHandler;
+        readonly InsertArticleBuilder builder;
+        readonly IsUserWithIdQueryHandler isUserWithIdQueryHandler;
+        readonly GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
         public InsertUserDataService(
             [FromService] InsertArticleCommandHandler insertArticleCommandHandler,
             [FromService] InsertArticleBuilder builder,

@@ -6,14 +6,15 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Application.Features.Queries;
 using System;
+using Services.Services;
 
 namespace WebAPI.Services
 {
     public class GetArticlesService
     {
-        GetArticlesByUserIdQueryHandler getArticlesByUserIdQueryHandler;
-        GetArticlesBuilder builder;
-        GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
+        readonly GetArticlesByUserIdQueryHandler getArticlesByUserIdQueryHandler;
+        readonly GetArticlesBuilder builder;
+        readonly GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
 
 
         public GetArticlesService(

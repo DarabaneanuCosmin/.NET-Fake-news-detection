@@ -11,7 +11,7 @@ namespace WebAPI.Features.Queries
         {
         }
 
-        public async Task<string> GetArticle()
+        public static async Task<string> GetArticle()
         {
             using var command = new MySqlCommand("SELECT * FROM user;", null);
             using var reader = await command.ExecuteReaderAsync();

@@ -11,7 +11,7 @@ namespace WebAPI.Features.Commands
 {
     public class InsertUserCommandHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public InsertUserCommandHandler(IConfiguration configuration) : base(configuration)
         {

@@ -8,6 +8,8 @@ namespace WebAPI.Features.Config
 {
     public class Security
     {
+        protected Security() { }
+
         public static string DecryptString(string encrString)
         {
             byte[] b;
@@ -17,7 +19,7 @@ namespace WebAPI.Features.Config
                 b = Convert.FromBase64String(encrString);
                 decrypted = System.Text.ASCIIEncoding.ASCII.GetString(b);
             }
-            catch (FormatException fe)
+            catch (FormatException)
             {
                 decrypted = "";
             }

@@ -12,7 +12,7 @@ namespace WebAPI.Features.Queries
 {
     public class GetArticlesByUserIdQueryHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public GetArticlesByUserIdQueryHandler(IConfiguration configuration) : base(configuration)
         {

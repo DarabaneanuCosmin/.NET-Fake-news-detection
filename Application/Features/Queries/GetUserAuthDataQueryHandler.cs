@@ -12,7 +12,7 @@ namespace WebAPI.Features.Queries
 {
     public class GetUserAuthDataQueryHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public GetUserAuthDataQueryHandler(IConfiguration configuration) : base(configuration)
         {

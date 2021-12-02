@@ -6,6 +6,7 @@ using System;
 using WebAPI.Assemblers;
 using WebAPI.Responses;
 using WebAPI.Features.Queries;
+using Services.Services;
 
 namespace WebAPI.Services
 {
@@ -55,7 +56,7 @@ namespace WebAPI.Services
             return this.builder.builder(token, error);
         }
 
-        public string generateToken(string email)
+        public static string generateToken(string email)
         {
             var secret = email;
             var token = JwtBuilder.Create()

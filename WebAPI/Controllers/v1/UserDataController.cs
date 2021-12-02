@@ -34,12 +34,6 @@ namespace WebAPI.Controllers.v1
         public GetArticlesResponse GetArticles([FromQuery] String token, [FromServices] GetArticlesService articlesService)
         {
             return  articlesService.GetArticles(token);
-            //return await query.GetArticlesByUserId(id);
         }
-
-        /*public async Task<List<Article>> GetAsync([FromQuery] GetArticlesByUserIdQuery id, [FromServices] GetArticlesByUserIdQueryHandler query)
-        {
-            return await query.GetArticlesByUserId(id);
-        }*/
     }
 }

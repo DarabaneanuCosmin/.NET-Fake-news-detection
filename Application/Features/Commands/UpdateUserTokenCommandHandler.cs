@@ -11,7 +11,7 @@ namespace WebAPI.Features.Commands
 {
     public class UpdateUserTokenCommandHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public UpdateUserTokenCommandHandler(IConfiguration configuration) : base(configuration)
         {

@@ -9,7 +9,7 @@ namespace WebAPI.Features.Queries
 {
     public class IsUserWithIdQueryHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public IsUserWithIdQueryHandler(IConfiguration configuration) : base(configuration)
         {
@@ -25,9 +25,15 @@ namespace WebAPI.Features.Queries
                 using var command = new MySqlCommand("SELECT * FROM user WHERE user.id = " + "@id", this.connection);
                 command.Parameters.AddWithValue("@id", query);
                 MySqlDataReader rdr = command.ExecuteReader();
-                while ( rdr.Read())
+                /*while ( rdr.Read())
                 {
                     if (rdr.GetFieldValue<byte[]>(0).Length > 0 )
+                        return true;
+                    return false;
+                }*/
+                if (rdr.Read())
+                {
+                    if (rdr.GetFieldValue<byte[]>(0).Length > 0)
                         return true;
                     return false;
                 }

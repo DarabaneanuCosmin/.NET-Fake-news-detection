@@ -9,7 +9,7 @@ namespace Application.Features.Queries
 {
     public class GetUserIdByUserTokenHandler : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public GetUserIdByUserTokenHandler(IConfiguration configuration) : base(configuration)
         {

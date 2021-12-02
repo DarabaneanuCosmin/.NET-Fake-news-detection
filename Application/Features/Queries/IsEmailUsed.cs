@@ -11,7 +11,7 @@ namespace WebAPI.Features.Queries
 {
     public class IsEmailUsed : DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public IsEmailUsed(IConfiguration configuration) : base(configuration)
         {

@@ -8,7 +8,7 @@ namespace WebAPI.Features.Commands
 {
     public class InsertArticleCommandHandler: DbConfiguration
     {
-        public MySqlConnection connection;
+        private MySqlConnection connection;
 
         public InsertArticleCommandHandler(IConfiguration configuration) : base(configuration)
         {
