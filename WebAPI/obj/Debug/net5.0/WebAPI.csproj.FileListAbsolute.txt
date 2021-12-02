@@ -254,3 +254,21 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Private.ServiceModel.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.ServiceModel.Primitives.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.ServiceModel.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\cs\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\de\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\es\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\fr\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\it\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\ja\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\ko\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\pl\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\ru\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\tr\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\zh-Hant\System.Private.ServiceModel.resources.dll

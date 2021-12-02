@@ -1,8 +1,6 @@
+
 using Application.Features.Queries;
 using Microsoft.Extensions.DependencyInjection;
-using Moq;
-using System;
-using WebAPI.Assemblers;
 using WebAPI.Controllers.v1;
 using WebAPI.Features.Queries;
 using WebAPI.Responses;
@@ -32,12 +30,11 @@ namespace Core.Test
 
             var services = new ServiceCollection();
             services.AddTransient<GetArticlesByUserIdQueryHandler>();
-            services.AddTransient<GetArticlesBuilder>();
             services.AddTransient<GetUserIdByUserTokenHandler>();
 
             var serviceProvider = services.BuildServiceProvider();
             //ar trb interfata la getService
-            GetArticlesService getArticlesService = serviceProvider.GetService<GetArticlesService>();
+            GetArticlesService getArticlesService = (GetArticlesService)serviceProvider.GetService<IGetArticlesService>();
 
             //act
             var result = controller.GetArticles(token, getArticlesService);
