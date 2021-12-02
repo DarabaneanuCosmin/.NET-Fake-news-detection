@@ -28,7 +28,7 @@ namespace WebAPI.Features.Queries
 
                 using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " + "@email_address" + " AND user.password = " + "@encryptedPassword", this.connection);
                 command.Parameters.AddWithValue("@email_address", user.email_address);
-                command.Parameters.AddWithValue("@encryptedPassword", Security.EncryptString(user.password));
+                command.Parameters.AddWithValue("@encryptedPassword", Security.EncryptString(user.encryptedPassword));
 
                 MySqlDataReader rdr = command.ExecuteReader();
                 while (rdr.Read())

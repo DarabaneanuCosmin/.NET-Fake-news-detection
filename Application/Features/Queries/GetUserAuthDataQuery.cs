@@ -9,7 +9,7 @@ namespace WebAPI.Features.Queries
     public class GetUserAuthDataQuery
     {
         public string email_address { get; set; }
-        public string password { get; set; }
+        public string encryptedPassword { get; set; }
 
     }
 }
