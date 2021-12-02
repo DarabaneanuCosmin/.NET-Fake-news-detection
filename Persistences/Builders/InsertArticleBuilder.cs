@@ -2,7 +2,7 @@
 
 namespace WebAPI.Assemblers
 {
-    public class InsertArticleBuilder
+    public static class InsertArticleBuilder
     {
         public static InsertArticleResponse builder(bool error)
         {

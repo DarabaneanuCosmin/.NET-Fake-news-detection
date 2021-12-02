@@ -24,16 +24,13 @@ namespace WebAPI
                             .AddTransient<GetArticlesByUserIdQueryHandler>()
                             .AddTransient<UserAuthentificationService>()
                             .AddTransient<InsertUserCommandHandler>()
-                            .AddTransient<InsertArticleBuilder>()
                             .AddTransient<InsertUserDataService>()
-                            .AddTransient<GetArticlesBuilder>()
                             .AddTransient<GetArticlesService>()
-                            .AddTransient<AuthentificationBuilder>()
                             .AddTransient<GetUserAuthDataQueryHandler>()
                             .AddTransient<IsEmailUsed>()
                             .AddTransient<UpdateUserTokenCommandHandler>()
                             .AddTransient<IsUserWithIdQueryHandler>()
                             .AddTransient<GetUserIdByUserTokenHandler>());
-        
+
     }
 }

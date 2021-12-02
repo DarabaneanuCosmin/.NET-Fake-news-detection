@@ -6,7 +6,7 @@ using WebAPI.Responses;
 
 namespace WebAPI.Assemblers
 {
-    public class GetArticlesBuilder
+    public static class GetArticlesBuilder
     {
         public static GetArticlesResponse builder(List<Article> articles)
         {

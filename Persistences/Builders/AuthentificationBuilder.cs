@@ -7,7 +7,7 @@ using WebAPI.Responses;
 
 namespace WebAPI.Assemblers
 {
-    public class AuthentificationBuilder
+    public static class AuthentificationBuilder
     {
         public static AuthenticationResponse builder(string token, bool error)
         {
