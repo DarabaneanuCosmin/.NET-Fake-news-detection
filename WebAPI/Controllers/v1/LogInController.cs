@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,14 @@ namespace WebAPI.Controllers.v1
     {
         [EnableCors]
         [HttpPost]
-        public AuthenticationResponse LogIn([FromBody] GetUserAuthDataQuery user, [FromServices] IUserAuthentification userAuthentification)
+        public ObjectResult LogIn([FromBody] GetUserAuthDataQuery user, [FromServices] IUserAuthentification userAuthentification)
         {
-            return userAuthentification.LogIn(user);
+            if (user.email_address == null || user.encryptedPassword == null)
+            {
+                return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
+            }
+
+            return StatusCode(StatusCodes.Status206PartialContent, userAuthentification.LogIn(user));
         }
     }
 }

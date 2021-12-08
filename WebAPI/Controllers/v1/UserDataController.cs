@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using WebAPI.Entities;
@@ -25,16 +26,25 @@ namespace WebAPI.Controllers.v1
         [HttpPost]
         public HttpResponseMessage InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] IUserData userData)
         {
-            userData.Insert(insert);
+            if (insert.token != null)
+            {
+                userData.Insert(insert);
 
-            return new HttpResponseMessage(HttpStatusCode.Created);
+                return new HttpResponseMessage(HttpStatusCode.Created);
+            }
+            return new HttpResponseMessage(HttpStatusCode.Unauthorized);
         }
 
         [EnableCors]
         [HttpGet]
-        public GetArticlesResponse GetArticles([FromQuery] String token, [FromServices] IUserData userData)
+        public ObjectResult GetArticles([FromQuery] String token, [FromServices] IUserData userData)
         {
-            return userData.GetArticles(token);
+            if (token == null || token == string.Empty)
+            {
+                return StatusCode(StatusCodes.Status206PartialContent, new GetArticlesResponse());
+
+            }
+            return StatusCode(StatusCodes.Status206PartialContent, userData.GetArticles(token));
         }
     }
 }

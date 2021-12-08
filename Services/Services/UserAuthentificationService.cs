@@ -34,6 +34,7 @@ namespace WebAPI.Services
 
         public AuthenticationResponse SignUp(InsertUserCommand user)
         {
+
             if (!isEmailUsed.isUsed(user.email_address))
             {
                 var token = generateToken(user.email_address);

@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using WebAPI.Responses;
 using WebAPI.Services;
 using WebAPI.Interfaces;
+using System.Net;
+using Microsoft.AspNetCore.Http;
 
 namespace WebAPI.Controllers.v1
 {
@@ -11,10 +13,16 @@ namespace WebAPI.Controllers.v1
     public class SignUpController : BaseController
     {
         [EnableCors]
-        [HttpPost]
-        public AuthenticationResponse PostSession([FromBody] InsertUserCommand user, [FromServices] IUserAuthentification userAuthentification)
+        [Microsoft.AspNetCore.Mvc.HttpPost]
+        public ObjectResult PostSession([Microsoft.AspNetCore.Mvc.FromBody] InsertUserCommand user, [FromServices] IUserAuthentification userAuthentification)
         {
-            return userAuthentification.SignUp(user);
+            if (user.email_address == null || user.password == null)
+            {
+                return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
+
+            }
+            return StatusCode(StatusCodes.Status200OK, userAuthentification.SignUp(user));
+
         }
     }
 }
