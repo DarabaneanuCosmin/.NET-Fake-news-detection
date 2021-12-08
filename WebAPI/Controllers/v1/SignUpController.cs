@@ -1,10 +1,7 @@
 ﻿using WebAPI.Features.Commands;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Responses;
-using WebAPI.Services;
 using WebAPI.Interfaces;
-using System.Net;
 using Microsoft.AspNetCore.Http;
 
 namespace WebAPI.Controllers.v1
@@ -18,10 +15,16 @@ namespace WebAPI.Controllers.v1
         {
             if (user.email_address == null || user.password == null)
             {
-                return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
+                return StatusCode(StatusCodes.Status206PartialContent, "Email adress or password are empty ");
 
             }
-            return StatusCode(StatusCodes.Status200OK, userAuthentification.SignUp(user));
+            var result = userAuthentification.SignUp(user);
+            if (result.error == true)
+            {
+                return StatusCode(StatusCodes.Status403Forbidden, "Email already exists!");
+
+            }
+            return StatusCode(StatusCodes.Status200OK, result);
 
         }
     }

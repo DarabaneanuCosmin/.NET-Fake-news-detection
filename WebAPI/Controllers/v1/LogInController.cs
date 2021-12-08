@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using WebAPI.Entities;
 using WebAPI.Features.Queries;
 using WebAPI.Interfaces;
 using WebAPI.Responses;
-using WebAPI.Services;
 
 namespace WebAPI.Controllers.v1
 {
@@ -24,7 +20,13 @@ namespace WebAPI.Controllers.v1
                 return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
             }
 
-            return StatusCode(StatusCodes.Status206PartialContent, userAuthentification.LogIn(user));
+            var result = userAuthentification.LogIn(user);
+            if (result.error == true)
+            {
+                return StatusCode(StatusCodes.Status206PartialContent, "Email or password are wrong!");
+            }
+            return StatusCode(StatusCodes.Status200OK, result);
+
         }
     }
 }
