@@ -42,8 +42,6 @@ jobs:
         with:
           buildCommand: dotnet build .
           testCommand: dotnet test .
-          projectKey: a-project-key
-          projectName: a-project-name
           sonarOrganisation: an-org
           beginArguments: >
               /d:sonar.verbose="true"
