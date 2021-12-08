@@ -21,7 +21,7 @@ namespace WebAPI.Controllers.v1
             }
 
             var result = userAuthentification.LogIn(user);
-            if (result.error == true)
+            if (result.error)
             {
                 return StatusCode(StatusCodes.Status206PartialContent, "Email or password are wrong!");
             }

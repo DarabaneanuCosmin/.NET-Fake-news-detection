@@ -19,7 +19,7 @@ namespace WebAPI.Controllers.v1
 
             }
             var result = userAuthentification.SignUp(user);
-            if (result.error == true)
+            if (result.error)
             {
                 return StatusCode(StatusCodes.Status403Forbidden, "Email already exists!");
 

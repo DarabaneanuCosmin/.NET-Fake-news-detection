@@ -18,27 +18,33 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public HttpResponseMessage InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] IUserData userData)
+        public StatusCodeResult InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] IUserData userData)
         {
             if (insert.token != null)
             {
                 userData.Insert(insert);
 
-                return new HttpResponseMessage(HttpStatusCode.Created);
+                return StatusCode(StatusCodes.Status201Created);
             }
-            return new HttpResponseMessage(HttpStatusCode.Unauthorized);
+            return StatusCode(StatusCodes.Status401Unauthorized);
         }
 
         [EnableCors]
         [HttpGet]
         public ObjectResult GetArticles([FromQuery] String token, [FromServices] IUserData userData)
         {
+            
             if (token == null || token == string.Empty)
             {
-                return StatusCode(StatusCodes.Status206PartialContent, new GetArticlesResponse());
+                return StatusCode(StatusCodes.Status400BadRequest, new GetArticlesResponse());
 
             }
-            return StatusCode(StatusCodes.Status206PartialContent, userData.GetArticles(token));
+            GetArticlesResponse articlesResponse = userData.GetArticles(token);
+            if(articlesResponse.articles.Count == 0)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, new GetArticlesResponse());
+            }
+            return StatusCode(StatusCodes.Status200OK, articlesResponse);
         }
     }
 }
