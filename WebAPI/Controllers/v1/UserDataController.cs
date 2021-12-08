@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using WebAPI.Entities;
 using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
+using WebAPI.Interfaces;
 using WebAPI.Responses;
 using WebAPI.Services;
 
@@ -22,18 +23,18 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public HttpResponseMessage InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] InsertUserDataService userDataService)
+        public HttpResponseMessage InsertUserData([FromBody] InsertArticleUsingTokenCommand insert, [FromServices] IUserData userData)
         {
-            userDataService.Insert(insert);
+            userData.Insert(insert);
 
             return new HttpResponseMessage(HttpStatusCode.Created);
         }
 
         [EnableCors]
         [HttpGet]
-        public GetArticlesResponse GetArticles([FromQuery] String token, [FromServices] GetArticlesService articlesService)
+        public GetArticlesResponse GetArticles([FromQuery] String token, [FromServices] IUserData userData)
         {
-            return  articlesService.GetArticles(token);
+            return userData.GetArticles(token);
         }
     }
 }

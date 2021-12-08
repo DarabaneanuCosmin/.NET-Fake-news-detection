@@ -7,10 +7,11 @@ using WebAPI.Assemblers;
 using WebAPI.Responses;
 using WebAPI.Features.Queries;
 using Services.Services;
+using WebAPI.Interfaces;
 
 namespace WebAPI.Services
 {
-    public class UserAuthentificationService
+    public class UserAuthentificationService : IUserAuthentification
     {
         GetUserAuthDataQueryHandler GetUserAuthDataQueryHandler { get; set; }
         InsertUserCommandHandler insertUserCommandHandler { get; set; }
@@ -28,7 +29,10 @@ namespace WebAPI.Services
             this.isEmailUsed = isEmailUsed;
             this.updateUserTokenCommandHandler = updateUserTokenCommandHandler;
         }
-        public AuthenticationResponse SignIn(InsertUserCommand user)
+
+
+
+        public AuthenticationResponse SignUp(InsertUserCommand user)
         {
             if (!isEmailUsed.isUsed(user.email_address))
             {
