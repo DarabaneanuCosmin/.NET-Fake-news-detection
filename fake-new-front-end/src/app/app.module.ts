@@ -5,7 +5,6 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DataSetInputComponent } from './components/data-set-input/data-set-input.component';
-import { FataSetOutputComponent } from './components/fata-set-output/fata-set-output.component';
 import { LastInputsUserComponent } from './components/last-inputs-user/last-inputs-user.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
@@ -16,14 +15,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './components/modal/modal.component';
 import { HttpClientModule } from  '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { CookieModule, CookieOptionsProvider, CookieService } from 'ngx-cookie';
+import { IncorrectInputComponent } from './components/incorrect-input/incorrect-input.component';
+import { AuthGuard } from './services/auth-guard';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DataSetInputComponent,
-    FataSetOutputComponent,
     LastInputsUserComponent,
     LogInComponent,
     SignInComponent,
@@ -32,6 +31,7 @@ import { CookieModule, CookieOptionsProvider, CookieService } from 'ngx-cookie';
     FooterComponent,
     routingComponents,
     ModalComponent,
+    IncorrectInputComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,9 +39,8 @@ import { CookieModule, CookieOptionsProvider, CookieService } from 'ngx-cookie';
     NgbModule,
     HttpClientModule,
     FormsModule,
-    CookieModule.forRoot(),
   ],
-  providers: [CookieService, CookieOptionsProvider],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

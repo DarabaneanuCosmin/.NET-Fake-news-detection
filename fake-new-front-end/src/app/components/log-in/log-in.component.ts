@@ -2,8 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ISingIn } from 'src/assets/singInInterface';
-
-
+import jwt_decode from 'jwt-decode';
 @Component({
   selector: 'app-log-in',
   templateUrl: './log-in.component.html',
@@ -24,25 +23,51 @@ export class LogInComponent implements OnInit {
       'Access-Control-Allow-Origin':  'http://localhost:5000/api/v1/'
     }
 
-    this.http.post<ISingIn>(this.URL,{
-      email_address: inputValue["email-address"],
-      password: inputValue["password"]
-    }, {headers}).subscribe( res => {
-      if(!res.error){
-        localStorage.setItem("user", res.token);
-        localStorage.setItem("fakenewsemail", inputValue["email-address"]);
-        this.router.navigate(['/profile']);
-      }
-      this.close_modal("log_in");
-      console.log("Wrong user.");
-
-    });
+    if(inputValue["email-address"] == "" || inputValue["password"] == "")
+      {
+        this.close_modal("log_in");
+        this.open("incorrect_input");
+    }else{
+      const now = new Date();
+      this.http.post<ISingIn>(this.URL,{
+        email_address: inputValue["email-address"],
+       encryptedPassword: inputValue["password"]
+      }, {headers}).subscribe( res => {
+        if(!res.error){
+          let tokenInfo = this.getDecodedAccessToken(res.token);
+          localStorage.setItem("user", res.token);
+          localStorage.setItem("fakenewsemail", inputValue["email-address"]);
+          localStorage.setItem("expiry", tokenInfo.exp);
+          this.router.navigate(['profile']);
+        }
+        else
+        {
+          this.open("incorrect_input");
+        }
+        this.close_modal("log_in");
+      });
+    }
   }
   
-  close_modal(elem: string) {
-    let modal_t  = document.getElementById(elem)
-    modal_t.classList.remove('sshow')
-    modal_t.classList.add('hhidden');
+close_modal(elem: string) {
+  let modal_t  = document.getElementById(elem)
+  modal_t.classList.remove('sshow')
+  modal_t.classList.add('hhidden');
+}
+
+open(elem: string){
+  let modal_t  = document.getElementById(elem)
+  modal_t.classList.remove('hhidden')
+  modal_t.classList.add('sshow');
+}
+
+getDecodedAccessToken(token: string): any {
+  try{
+      return jwt_decode(token);
+  }
+  catch(Error){
+      return null;
+  }
 }
 
 }

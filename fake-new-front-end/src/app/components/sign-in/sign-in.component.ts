@@ -28,6 +28,11 @@ export class SignInComponent implements OnInit {
       'Access-Control-Allow-Origin':  'http://localhost:5000/api/v1/'
     }
   
+    if(inputValue["email-address"] == "" || inputValue["password"] == "" || inputValue["first-name"]=="" || inputValue["last-name"]=="")
+    {
+      this.close_modal("sign_up");
+      this.open("incorrect_input");
+    }else{
     this.http.post<ISingIn>(this.URL,{
       email_address: inputValue["email-address"],
       first_name: inputValue["first-name"],
@@ -44,10 +49,18 @@ export class SignInComponent implements OnInit {
 
     });
   }
-  close_modal(elem: string) {
-    let modal_t  = document.getElementById(elem)
-    modal_t.classList.remove('sshow')
-    modal_t.classList.add('hhidden');
+  }
+
+close_modal(elem: string) {
+  let modal_t  = document.getElementById(elem)
+  modal_t.classList.remove('sshow')
+  modal_t.classList.add('hhidden');
+}
+
+open(elem: string){
+  let modal_t  = document.getElementById(elem)
+  modal_t.classList.remove('hhidden')
+  modal_t.classList.add('sshow');
 }
 
 }

@@ -1,0 +1,17 @@
+.log-in-comp{
+    border: 1em #76323F solid;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 1em;
+    background-color: #dfd7d0;
+}
+
+.text{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #76323F;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}

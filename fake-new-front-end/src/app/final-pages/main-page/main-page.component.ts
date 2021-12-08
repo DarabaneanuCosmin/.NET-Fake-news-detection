@@ -10,6 +10,8 @@ export class MainPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(localStorage.getItem("user"))
+      localStorage.clear();
   }
 
 }

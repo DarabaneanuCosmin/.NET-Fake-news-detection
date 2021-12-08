@@ -1,3 +1,3 @@
 export interface IInputData {
-    statusCode: number
+    ml_result: boolean
 }

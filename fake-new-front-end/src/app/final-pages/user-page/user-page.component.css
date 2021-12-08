@@ -13,6 +13,9 @@
     width: 80%;
 }
 
+app-data-set-input{
+    width: 120%;
+}
 app-last-inputs-user{
     margin-top: 7em;
     margin-right: 10em;

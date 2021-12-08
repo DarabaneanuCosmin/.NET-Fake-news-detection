@@ -26,6 +26,7 @@
     "angular-material": "^1.2.3",
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
+    "jwt-decode": "^3.1.2",
     "ngb-modal": "^2.0.3",
     "ngx-cookie": "^5.0.2",
     "rxjs": "~6.6.0",

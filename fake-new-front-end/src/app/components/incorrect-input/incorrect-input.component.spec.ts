@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FataSetOutputComponent } from './fata-set-output.component';
+import { IncorrectInputComponent } from './incorrect-input.component';
 
-describe('FataSetOutputComponent', () => {
-  let component: FataSetOutputComponent;
-  let fixture: ComponentFixture<FataSetOutputComponent>;
+describe('IncorrectInputComponent', () => {
+  let component: IncorrectInputComponent;
+  let fixture: ComponentFixture<IncorrectInputComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FataSetOutputComponent ]
+      declarations: [ IncorrectInputComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FataSetOutputComponent);
+    fixture = TestBed.createComponent(IncorrectInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,8 +1,8 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IUserData } from 'src/assets/IUserData';
-import { waitForAsync } from '@angular/core/testing';
-import { isThisTypeNode } from 'typescript';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-last-inputs-user',
@@ -15,20 +15,25 @@ export class LastInputsUserComponent implements OnInit {
   data: any[];
   error: string;
 
-  constructor(private http:HttpClient) {
+  constructor(private http:HttpClient,  private router: Router) {
     const headers = {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
       'Access-Control-Allow-Headers': 'Content-Type',
       'Access-Control-Allow-Origin':  'http://localhost:5000/api/v1/'
     }
+    const now = new Date();
 
+    if (now.getTime() < parseInt(localStorage.getItem("expiry")))
+      this.router.navigate([""]);
+    else{
     this.http.get<IUserData>(this.URL, {headers}).subscribe(res =>{
       this.data = res.articles;
       this.error = res.error;
     },
     () => {},
     () => { this.test(); })
+  }
    }
 
    test():void {
@@ -38,7 +43,7 @@ export class LastInputsUserComponent implements OnInit {
       <p class="text title-text" id="title-no-`+ index +`"> ` + this.data[index].title + ` </p>
       <p class="text" id="subject-no-`+ index +`"> ` + this.data[index].subject + ` </p>
       <p class="text" id="content-no-`+ index +`"> ` + this.data[index].text + ` </p>
-      <p class="text" id="date-no-`+ index +`"> ` + this.data[index].date + ` </p>
+      <p class="text" id="date-no-`+ index +`"> ` + this.data[index].date_article + ` </p>
       </li>`);
     }
    }

@@ -21,11 +21,7 @@ export class HeaderComponent implements OnInit {
     'Access-Control-Allow-Origin':  'https://localhost:5001/api/v1/',
   }
 
-  private requestOptions = {                                                                                                                                                                                 
-    headers: new HttpHeaders(this.headerDict), 
-  };
-
-  constructor(private http:HttpClient, private router:Router) {
+  constructor(private router:Router) {
    }
 
   ngOnInit(): void {
@@ -51,5 +47,4 @@ export class HeaderComponent implements OnInit {
   move() {
     this.router.navigate(['/']);
   }
-
 }
