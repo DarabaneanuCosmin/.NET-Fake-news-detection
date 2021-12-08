@@ -15,5 +15,7 @@ namespace WebAPI.Entities
         public string Subject { get; set; }
 
         public string Date_article { get; set; }
+
+        public bool Is_fake { get; set; }
     }
 }

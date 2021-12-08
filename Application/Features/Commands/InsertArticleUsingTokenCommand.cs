@@ -17,5 +17,7 @@ namespace WebAPI.Features.Commands
         public string subject { get; set; }
 
         public string date_article { get; set; }
+
+        public bool is_fake { get; set; }
     }
 }
