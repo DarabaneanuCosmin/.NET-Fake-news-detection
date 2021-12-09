@@ -7,6 +7,7 @@ using WebAPI.Services;
 using WebAPI.Assemblers;
 using Application.Features.Queries;
 using WebAPI.Interfaces;
+using WebAPI.Features.Config;
 
 namespace WebAPI
 {
@@ -31,8 +32,10 @@ namespace WebAPI
                             .AddTransient<UpdateUserTokenCommandHandler>()
                             .AddTransient<IsUserWithIdQueryHandler>()
                             .AddTransient<GetUserIdByUserTokenHandler>()
+                            .AddTransient<Security>()
                             .AddScoped<IUserAuthentification, UserAuthentificationService>()
-                            .AddScoped<IUserData, UserDataService>());
+                            .AddScoped<IUserData, UserDataService>()
+                            );
 
     }
 }

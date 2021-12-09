@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,6 @@ namespace WebAPI.Features.Config
 {
     public class Security
     {
-        protected Security() { }
 
         public static string DecryptString(string encrString)
         {
@@ -31,6 +31,20 @@ namespace WebAPI.Features.Config
             byte[] b = System.Text.ASCIIEncoding.ASCII.GetBytes(strEncrypted);
             string encrypted = Convert.ToBase64String(b);
             return encrypted;
+        }
+
+        public bool JWTTokenValidation(string token)
+        {
+            var jwthandler = new JwtSecurityTokenHandler();
+            var jwttoken = jwthandler.ReadToken(token);
+            var expDate = jwttoken.ValidTo;
+
+            if (expDate < DateTime.UtcNow.AddMinutes(1))
+            {
+                return true;
+
+            }
+            return false;
         }
     }
 }

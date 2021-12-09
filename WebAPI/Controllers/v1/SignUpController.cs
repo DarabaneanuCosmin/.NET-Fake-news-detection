@@ -11,9 +11,18 @@ namespace WebAPI.Controllers.v1
     {
         [EnableCors]
         [Microsoft.AspNetCore.Mvc.HttpPost]
-        public ObjectResult PostSession([Microsoft.AspNetCore.Mvc.FromBody] InsertUserCommand user, [FromServices] IUserAuthentification userAuthentification)
+        public ObjectResult PostSession
+            (
+            [Microsoft.AspNetCore.Mvc.FromBody] InsertUserCommand user,
+            [FromServices] IUserAuthentification userAuthentification
+            )
         {
-            if (user.email_address == null || user.password == null)
+            if (
+                user.email_address == null ||
+                user.email_address == string.Empty ||
+                user.password == string.Empty ||
+                user.password == null
+                )
             {
                 return StatusCode(StatusCodes.Status206PartialContent, "Email adress or password are empty ");
 

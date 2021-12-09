@@ -15,7 +15,12 @@ namespace WebAPI.Controllers.v1
         [HttpPost]
         public ObjectResult LogIn([FromBody] GetUserAuthDataQuery user, [FromServices] IUserAuthentification userAuthentification)
         {
-            if (user.email_address == null || user.encryptedPassword == null)
+            if (
+                user.email_address == null ||
+                user.encryptedPassword == null ||
+                user.email_address == string.Empty ||
+                user.encryptedPassword == string.Empty
+                )
             {
                 return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
             }

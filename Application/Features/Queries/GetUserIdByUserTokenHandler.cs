@@ -20,7 +20,7 @@ namespace Application.Features.Queries
             byte[] user_id = new byte[16];
             try
             {
-                
+
                 this.connection = new MySqlConnection(this.connectionString);
                 connection.Open();
                 using var command = new MySqlCommand("SELECT user.id FROM user WHERE user.token = " + "@token", this.connection);
