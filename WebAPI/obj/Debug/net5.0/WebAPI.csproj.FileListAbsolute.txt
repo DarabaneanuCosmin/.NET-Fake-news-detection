@@ -52,7 +52,6 @@ D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Swa
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
-D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
@@ -294,3 +293,7 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

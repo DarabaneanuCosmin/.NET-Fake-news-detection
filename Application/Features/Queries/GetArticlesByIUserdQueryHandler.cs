@@ -7,6 +7,7 @@ using System.Configuration;
 using System.Threading.Tasks;
 using WebAPI.Entities;
 using WebAPI.Features.Config;
+using WebAPI.Responses;
 
 namespace WebAPI.Features.Queries
 {
@@ -18,9 +19,9 @@ namespace WebAPI.Features.Queries
         {
         }
 
-        public List<Article> GetArticlesByUserId(GetArticlesByUserIdQuery query)
+        public List<ArticleResponse> GetArticlesByUserId(GetArticlesByUserIdQuery query)
         {
-            var articles = new List<Article>();
+            var articles = new List<ArticleResponse>();
             try
             {
                 this.connection = new MySqlConnection(this.connectionString);
@@ -31,10 +32,9 @@ namespace WebAPI.Features.Queries
                 MySqlDataReader rdr = command.ExecuteReader();
                 while ( rdr.Read())
                 {
-                    articles.Add(new Article()
+                    articles.Add(new ArticleResponse()
                     {
                         Id = rdr.GetFieldValue<int>(0),
-                        //Id_user = await rdr.GetFieldValueAsync<Guid>(1),
                         Title =  rdr.GetFieldValue<String>(2),
                         Text =  rdr.GetFieldValue<String>(3),
                         Subject =  rdr.GetFieldValue<String>(4),

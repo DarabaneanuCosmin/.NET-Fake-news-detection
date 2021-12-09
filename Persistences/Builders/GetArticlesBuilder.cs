@@ -8,7 +8,7 @@ namespace WebAPI.Assemblers
 {
     public static class GetArticlesBuilder
     {
-        public static GetArticlesResponse builder(List<Article> articles)
+        public static GetArticlesResponse builder(List<ArticleResponse> articles)
         {
             var response = new GetArticlesResponse();
             response.articles = articles;

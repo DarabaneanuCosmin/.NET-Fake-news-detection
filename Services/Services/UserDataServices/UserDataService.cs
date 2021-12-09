@@ -58,7 +58,7 @@ namespace WebAPI.Services
             byte[] id = getUserIdByUserTokenHandler.GetUserIdByUserToken(token);
             Guid user_id = Guid.Parse(System.Text.Encoding.UTF8.GetString(id));
             GetArticlesByUserIdQuery getArticlesByUserIdQuery = new GetArticlesByUserIdQuery(user_id);
-            List<Article> articles = getArticlesByUserIdQueryHandler.GetArticlesByUserId(getArticlesByUserIdQuery);
+            List<ArticleResponse> articles = getArticlesByUserIdQueryHandler.GetArticlesByUserId(getArticlesByUserIdQuery);
 
             return GetArticlesBuilder.builder(articles);
         }
