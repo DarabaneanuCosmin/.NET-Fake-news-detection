@@ -64,7 +64,7 @@ namespace WebAPI.Services
             var token = JwtBuilder.Create()
                       .WithAlgorithm(new HMACSHA256Algorithm()) // symmetric
                       .WithSecret(secret)
-                      .AddClaim("exp", DateTimeOffset.UtcNow.AddHours(1).ToUnixTimeSeconds())
+                      .AddClaim("exp", DateTimeOffset.UtcNow.AddMinutes(3).ToUnixTimeSeconds())
                       .AddClaim("claim2", "claim2-value")
                       .Encode();
             return token;
