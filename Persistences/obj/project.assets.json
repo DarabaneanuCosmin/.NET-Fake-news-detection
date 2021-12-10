@@ -27,28 +27,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DenisaIonela\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\personal PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+      "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
-      "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\obj\\",
+      "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
             }
           }
         }
@@ -91,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

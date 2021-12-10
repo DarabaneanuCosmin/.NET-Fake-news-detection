@@ -46,3 +46,15 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\bin\Debug\net5.0\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\bin\Debug\net5.0\Domain.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache

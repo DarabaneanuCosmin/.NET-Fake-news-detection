@@ -55,3 +55,18 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.deps.json
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\ref\Persistence.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Domain.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CopyComplete

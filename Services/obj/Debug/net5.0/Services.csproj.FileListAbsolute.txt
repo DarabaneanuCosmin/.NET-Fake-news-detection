@@ -67,3 +67,22 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Application.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Domain.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Persistence.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Application.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Domain.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Persistence.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\ref\Services.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Services.deps.json
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Services.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\ref\Services.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Services\bin\Debug\net5.0\Services.pdb
