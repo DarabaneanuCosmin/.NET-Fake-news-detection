@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Entities;
+using WebAPI.Responses;
 
 namespace WebAPI.Controllers.v1
 {
@@ -10,7 +10,7 @@ namespace WebAPI.Controllers.v1
     {
         [EnableCors]
         [HttpPost]
-        public bool IsArticleFake([FromBody] Article article)
+        public bool IsArticleFake([FromBody] MLArticle article)
         {
             return true;
         }
