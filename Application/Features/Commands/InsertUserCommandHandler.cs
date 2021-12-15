@@ -11,7 +11,6 @@ namespace WebAPI.Features.Commands
 {
     public class InsertUserCommandHandler : DbConfiguration
     {
-        private MySqlConnection connection;
 
         public InsertUserCommandHandler(IConfiguration configuration) : base(configuration)
         {
@@ -21,10 +20,10 @@ namespace WebAPI.Features.Commands
         {
             try
             {
-                this.connection = new MySqlConnection(this.connectionString);
-                this.connection.OpenAsync();
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                connection.OpenAsync();
                 MySqlCommand cmd = new MySqlCommand("Insert into user (id,token, email_address, first_name, last_name, encoded_login_token)" +
-                    " values(@id,@token, @email_address, @first_name, @last_name, @encoded_login_token)", this.connection);
+                    " values(@id,@token, @email_address, @first_name, @last_name, @encoded_login_token)", connection);
                 cmd.Parameters.AddWithValue("@id", Guid.NewGuid());
                 cmd.Parameters.AddWithValue("@token", token);
                 cmd.Parameters.AddWithValue("@email_address", insertUserCommand.email_address);

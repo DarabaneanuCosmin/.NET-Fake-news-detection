@@ -13,7 +13,7 @@ namespace WebAPI.Features.Queries
 {
     public class GetArticlesByUserIdQueryHandler : DbConfiguration
     {
-        private MySqlConnection connection;
+    
 
         public GetArticlesByUserIdQueryHandler(IConfiguration configuration) : base(configuration)
         {
@@ -24,10 +24,10 @@ namespace WebAPI.Features.Queries
             var articles = new List<ArticleResponse>();
             try
             {
-                this.connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
                 connection.Open();
 
-                using var command = new MySqlCommand("SELECT * FROM article WHERE article.id_user = " + "@id_user", this.connection);
+                using var command = new MySqlCommand("SELECT * FROM article WHERE article.id_user = " + "@id_user", connection);
                 command.Parameters.AddWithValue("@id_user", query.Id_user);
                 MySqlDataReader rdr = command.ExecuteReader();
                 while (rdr.Read())

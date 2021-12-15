@@ -12,7 +12,6 @@ namespace WebAPI.Features.Queries
 {
     public class GetUserAuthDataQueryHandler : DbConfiguration
     {
-        private MySqlConnection connection;
 
         public GetUserAuthDataQueryHandler(IConfiguration configuration) : base(configuration)
         {
@@ -23,10 +22,12 @@ namespace WebAPI.Features.Queries
             UpdateUserResponse updateUserResponse = new UpdateUserResponse();
             try
             {
-                this.connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
                 connection.OpenAsync();
 
-                using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " + "@email_address" + " AND user.encoded_login_token = " + "@EncryptedPassword", this.connection);
+                using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " +
+                    "@email_address" + " AND user.encoded_login_token = " +
+                    "@EncryptedPassword", connection);
                 command.Parameters.AddWithValue("@email_address", user.email_address);
                 command.Parameters.AddWithValue("@EncryptedPassword", Security.EncryptString(user.encryptedPassword));
 

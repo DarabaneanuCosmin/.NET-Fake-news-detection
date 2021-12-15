@@ -11,7 +11,6 @@ namespace WebAPI.Features.Commands
 {
     public class UpdateUserTokenCommandHandler : DbConfiguration
     {
-        private MySqlConnection connection;
 
         public UpdateUserTokenCommandHandler(IConfiguration configuration) : base(configuration)
         {
@@ -21,14 +20,14 @@ namespace WebAPI.Features.Commands
         {
             try
             {
-                this.connection = new MySqlConnection(this.connectionString);
-                this.connection.OpenAsync();
-                MySqlCommand cmd = new MySqlCommand("UPDATE USER SET token = @token WHERE id = @id", this.connection);
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                connection.OpenAsync();
+                MySqlCommand cmd = new MySqlCommand("UPDATE USER SET token = @token WHERE id = @id", connection);
                 cmd.Parameters.AddWithValue("@token", token);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
-                this.connection.Close();
+                connection.Close();
                 return false;
 
             }

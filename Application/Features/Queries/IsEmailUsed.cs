@@ -11,7 +11,6 @@ namespace WebAPI.Features.Queries
 {
     public class IsEmailUsed : DbConfiguration
     {
-        private MySqlConnection connection;
 
         public IsEmailUsed(IConfiguration configuration) : base(configuration)
         {
@@ -21,10 +20,11 @@ namespace WebAPI.Features.Queries
         {
             try
             {
-                this.connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
                 connection.OpenAsync();
 
-                using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " + "@email_address", this.connection);
+                using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " 
+                    + "@email_address", connection);
                 command.Parameters.AddWithValue("@email_address", email_address);
 
                 MySqlDataReader rdr = command.ExecuteReader();

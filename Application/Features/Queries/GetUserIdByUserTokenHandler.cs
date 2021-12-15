@@ -9,8 +9,7 @@ namespace Application.Features.Queries
 {
     public class GetUserIdByUserTokenHandler : DbConfiguration
     {
-        private MySqlConnection connection;
-
+       
         public GetUserIdByUserTokenHandler(IConfiguration configuration) : base(configuration)
         {
         }
@@ -21,9 +20,9 @@ namespace Application.Features.Queries
             try
             {
 
-                this.connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new MySqlConnection(this.connectionString);
                 connection.Open();
-                using var command = new MySqlCommand("SELECT user.id FROM user WHERE user.token = " + "@token", this.connection);
+                using var command = new MySqlCommand("SELECT user.id FROM user WHERE user.token = " + "@token", connection);
                 command.Parameters.AddWithValue("@token", token);
                 MySqlDataReader rdr = command.ExecuteReader();
                 while (rdr.Read())
