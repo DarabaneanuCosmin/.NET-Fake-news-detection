@@ -13,10 +13,10 @@ namespace WebAPI.Services
 {
     public class UserAuthentificationService : IUserAuthentification
     {
-        GetUserAuthDataQueryHandler GetUserAuthDataQueryHandler { get; set; }
-        InsertUserCommandHandler insertUserCommandHandler { get; set; }
-        IsEmailUsed isEmailUsed { get; set; }
-        UpdateUserTokenCommandHandler updateUserTokenCommandHandler { get; set; }
+        readonly GetUserAuthDataQueryHandler GetUserAuthDataQueryHandler;
+        readonly InsertUserCommandHandler insertUserCommandHandler;
+        readonly IsEmailUsed isEmailUsed;
+        readonly UpdateUserTokenCommandHandler updateUserTokenCommandHandler;
         public UserAuthentificationService(
             [FromService] InsertUserCommandHandler insertUserCommandHandler,
             [FromService] GetUserAuthDataQueryHandler getUserAuthDataQueryHandler,

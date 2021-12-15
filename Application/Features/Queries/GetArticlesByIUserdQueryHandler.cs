@@ -1,5 +1,5 @@
 ﻿
-﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -30,15 +30,16 @@ namespace WebAPI.Features.Queries
                 using var command = new MySqlCommand("SELECT * FROM article WHERE article.id_user = " + "@id_user", this.connection);
                 command.Parameters.AddWithValue("@id_user", query.Id_user);
                 MySqlDataReader rdr = command.ExecuteReader();
-                while ( rdr.Read())
+                while (rdr.Read())
                 {
                     articles.Add(new ArticleResponse()
                     {
                         Id = rdr.GetFieldValue<int>(0),
-                        Title =  rdr.GetFieldValue<String>(2),
-                        Text =  rdr.GetFieldValue<String>(3),
-                        Subject =  rdr.GetFieldValue<String>(4),
-                        Date_article =  rdr.GetFieldValue<String>(5)
+                        Title = rdr.GetFieldValue<String>(2),
+                        Text = rdr.GetFieldValue<String>(3),
+                        Subject = rdr.GetFieldValue<String>(4),
+                        Date_article = rdr.GetFieldValue<String>(5),
+                        Is_fake = rdr.GetFieldValue<bool>(6)
                     });
 
                 }

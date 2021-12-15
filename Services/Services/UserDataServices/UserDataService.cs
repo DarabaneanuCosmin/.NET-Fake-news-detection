@@ -14,7 +14,6 @@ namespace WebAPI.Services
 {
     public class UserDataService : IUserData
     {
-
         readonly InsertArticleCommandHandler InsertArticleCommandHandler;
         readonly IsUserWithIdQueryHandler isUserWithIdQueryHandler;
         readonly GetUserIdByUserTokenHandler getUserIdByUserTokenHandler;
@@ -44,6 +43,7 @@ namespace WebAPI.Services
             article.text = insertArticleUsingTokenCommand.text;
             article.title = insertArticleUsingTokenCommand.title;
             article.date_article = insertArticleUsingTokenCommand.date_article;
+            article.is_fake = insertArticleUsingTokenCommand.is_fake;
             if (isUserWithIdQueryHandler.IsUserWithId(article.id_user))
             {
                 error = !InsertArticleCommandHandler.InsertArticle(article);
