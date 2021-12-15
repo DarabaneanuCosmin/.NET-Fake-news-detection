@@ -33,7 +33,7 @@ namespace WebAPI.Features.Config
             return encrypted;
         }
 
-        public bool JWTTokenValidation(string token)
+        public static bool JWTTokenValidation(string token)
         {
             var jwthandler = new JwtSecurityTokenHandler();
             var jwttoken = jwthandler.ReadToken(token);

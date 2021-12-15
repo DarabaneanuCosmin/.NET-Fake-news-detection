@@ -9,7 +9,7 @@ namespace WebAPI.Features.Config
 {
     public class DbConfiguration
     {
-        private readonly IConfiguration configuration;
+        private IConfiguration configuration { get; set; }
         protected string connectionString;
 
         public DbConfiguration(IConfiguration configuration)

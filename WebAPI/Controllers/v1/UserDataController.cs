@@ -23,11 +23,10 @@ namespace WebAPI.Controllers.v1
         public ObjectResult InsertUserData
             (
             [FromBody] InsertArticleUsingTokenCommand insert,
-            [FromServices] IUserData userData,
-            [FromServices] Security security
+            [FromServices] IUserData userData
             )
         {
-            if (insert.token != null && security.JWTTokenValidation(insert.token))
+            if (insert.token != null && Security.JWTTokenValidation(insert.token))
             {
                 return StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
 
@@ -43,11 +42,10 @@ namespace WebAPI.Controllers.v1
         public ObjectResult GetArticles
             (
             [FromQuery] String token,
-            [FromServices] IUserData userData,
-             [FromServices] Security security
+            [FromServices] IUserData userData
             )
         {
-            if (token != null && security.JWTTokenValidation(token))
+            if (token != null && Security.JWTTokenValidation(token))
             {
                 return StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
 

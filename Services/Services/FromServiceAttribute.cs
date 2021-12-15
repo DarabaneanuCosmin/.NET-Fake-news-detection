@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Services.Services
 {
-    internal class FromServiceAttribute : Attribute
+    public class FromServiceAttribute : Attribute
     {
     }
 }
