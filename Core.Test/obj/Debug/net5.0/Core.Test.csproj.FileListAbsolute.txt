@@ -325,3 +325,8 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\obj\Debug\net5.0\ref\Core.Test.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\obj\Debug\net5.0\Core.Test.pdb
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\obj\Debug\net5.0\Core.Test.genruntimeconfig.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\WebAPI.StaticWebAssets.xml
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

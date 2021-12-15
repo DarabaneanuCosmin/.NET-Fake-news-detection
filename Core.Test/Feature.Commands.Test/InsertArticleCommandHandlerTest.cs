@@ -1,11 +1,13 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using WebAPI.Features.Commands;
 using Xunit;
 
 namespace Core.Test
 {
+    
     public class InsertArticleCommandHandlerTest
     {
         private readonly InsertArticleCommandHandler insertArticleCommandHandler;

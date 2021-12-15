@@ -377,3 +377,4 @@ D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\ob
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPI.StaticWebAssets.xml

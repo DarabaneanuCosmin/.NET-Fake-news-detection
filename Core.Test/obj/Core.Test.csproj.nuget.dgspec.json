@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj": {}
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,18 +82,24 @@
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj",
         "projectName": "Core.Test",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Core.Test\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Core.Test\\Core.Test.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Core.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -100,8 +112,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj"
               }
             }
           }
@@ -160,18 +172,24 @@
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -214,18 +232,24 @@
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -238,8 +262,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
               }
             }
           }
@@ -272,18 +296,24 @@
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\Services.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -296,14 +326,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
               }
             }
           }
@@ -350,18 +380,24 @@
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj": {
+    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPI\\obj\\",
+        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -374,17 +410,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Application\\Application.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Services\\Services.csproj"
+              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj": {
+                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj"
               }
             }
           }
@@ -434,6 +470,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
