@@ -32,7 +32,6 @@ namespace WebAPI
                             .AddTransient<UpdateUserTokenCommandHandler>()
                             .AddTransient<IsUserWithIdQueryHandler>()
                             .AddTransient<GetUserIdByUserTokenHandler>()
-                            .AddTransient<Security>()
                             .AddScoped<IUserAuthentification, UserAuthentificationService>()
                             .AddScoped<IUserData, UserDataService>()
                             );

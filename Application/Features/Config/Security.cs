@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Features.Config
 {
-    public class Security
+    public static class Security
     {
 
         public static string DecryptString(string encrString)
