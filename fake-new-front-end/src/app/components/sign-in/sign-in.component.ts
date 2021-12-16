@@ -10,7 +10,7 @@ import { ISingIn } from 'src/assets/singInInterface';
 })
 export class SignInComponent implements OnInit {
 
-  private URL = 'http://localhost:5000/api/v1/signIn';
+  private URL = 'http://localhost:5000/api/v1/signUp';
 
   constructor(private http:HttpClient,
     private router: Router) {
@@ -38,18 +38,22 @@ export class SignInComponent implements OnInit {
       first_name: inputValue["first-name"],
       last_name: inputValue["last-name"],
       password: inputValue["password"]
-    }, {headers}).subscribe( res => {
-      if(!res.error){
-        localStorage.setItem("user", res.token);
+    }, {headers, observe: 'response'}).subscribe( res => {
+     if (res.status == 200){
+        localStorage.setItem("user", res.body.token);
         localStorage.setItem("fakenewsemail", inputValue["email-address"]);
-        this.router.navigate(['/profile']);
-        console.log(inputValue["password"]);
+        this.router.navigate(['/profile']);        
+        this.close_modal("sign_up");
       }
-      this.close_modal("sign_up");
-
-    });
-  }
-  }
+    },
+    error => {
+      if(error.status == 403){
+        this.close_modal("sign_up");
+        this.open("sign-up-error");
+      } 
+  });
+ }
+}
 
 close_modal(elem: string) {
   let modal_t  = document.getElementById(elem)

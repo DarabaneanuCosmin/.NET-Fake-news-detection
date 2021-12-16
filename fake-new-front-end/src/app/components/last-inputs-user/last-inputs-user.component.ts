@@ -24,26 +24,38 @@ export class LastInputsUserComponent implements OnInit {
     }
     const now = new Date();
 
-    if (now.getTime() < parseInt(localStorage.getItem("expiry")))
+    if (now.getTime()> (parseInt(localStorage.getItem("expiry")) * 1000))
       this.router.navigate([""]);
     else{
-    this.http.get<IUserData>(this.URL, {headers}).subscribe(res =>{
+      console.log("intru sa fac call la url");
+      console.log(this.URL + localStorage.getItem("user"));
+      this.http.get<IUserData>(this.URL + localStorage.getItem("user"), {headers}).subscribe(res =>{
+  
       this.data = res.articles;
       this.error = res.error;
     },
     () => {},
-    () => { this.test(); })
+    () => {
+      console.log("incep printarea");
+      this.test(); })
   }
    }
 
    test():void {
+    let answer ="";
     for (let index = 0; index < this.data.length; index++) {
+    console.log(this.data[index].is_fake);
+      if (this.data[index].is_fake)
+        answer = "Yes";
+      else
+        answer = "No";
     document.getElementById("news-list").insertAdjacentHTML('beforeend',
       `<li class="list-element" id="item-no-`+ index +`">
       <p class="text title-text" id="title-no-`+ index +`"> ` + this.data[index].title + ` </p>
       <p class="text" id="subject-no-`+ index +`"> ` + this.data[index].subject + ` </p>
       <p class="text" id="content-no-`+ index +`"> ` + this.data[index].text + ` </p>
       <p class="text" id="date-no-`+ index +`"> ` + this.data[index].date_article + ` </p>
+      <p class="text-title" id="response-no-`+ index +`"> Answer: ` + answer + ` </p>
       </li>`);
     }
    }

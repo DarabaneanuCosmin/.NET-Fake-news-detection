@@ -32,12 +32,16 @@ export class LogInComponent implements OnInit {
       this.http.post<ISingIn>(this.URL,{
         email_address: inputValue["email-address"],
        encryptedPassword: inputValue["password"]
-      }, {headers}).subscribe( res => {
-        if(!res.error){
-          let tokenInfo = this.getDecodedAccessToken(res.token);
-          localStorage.setItem("user", res.token);
+      }, {headers, observe: 'response'}).subscribe( res => {
+        if(res.status == 200){
+          console.log("user token");
+          console.log(localStorage.getItem("user"));
+          let tokenInfo = this.getDecodedAccessToken(res.body.token);
+          localStorage.setItem("user", res.body.token);
           localStorage.setItem("fakenewsemail", inputValue["email-address"]);
           localStorage.setItem("expiry", tokenInfo.exp);
+          console.log(localStorage.getItem("user"));
+
           this.router.navigate(['profile']);
         }
         else

@@ -25,37 +25,44 @@ export class DataSetInputComponent implements OnInit {
      'Access-Control-Allow-Headers': 'Content-Type',
      'Access-Control-Allow-Origin':  'http://localhost:5000/api/v1/'
    }
-   if (now.getTime() < parseInt(localStorage.getItem("expiry")))
+   console.log(now.getTime(), parseInt(localStorage.getItem("expiry")));
+   if (now.getTime()> (parseInt(localStorage.getItem("expiry")) * 1000))
      this.router.navigate([""]);
   else{
    if(inputValue["title"] == "" || inputValue["text"] == "" || inputValue["subject"]== "" || inputValue["date"] == "")
    {
      this.open("incorrect_input");
    }else{
-   if(localStorage.getItem("user") != null){
-    this.http.post<IInputData>(this.URL + "/UserData",{
-     token: localStorage.getItem("user"),
-     title: inputValue["title"],
-     text: inputValue["text"],
-     subject: inputValue["subject"],
-     date_article: inputValue["date"]
-   }, {headers}).subscribe(res =>{
-    this.reloadComponent();
-   });
-  }
-
-  // this.http.post<IInputData>(this.URL + "/ml",{
-  //   title: inputValue["title"],
-  //   text: inputValue["text"],
-  //   subject: inputValue["subject"],
-  //   date_article: inputValue["date"]
-  // }, {headers}).subscribe( res =>
-  //   {
-  //     if(res.ml_result)
-  //       this.result = "Yes";
-  //     else
-  //       this.result = "No";
-  //   });
+    this.http.post<Boolean>(this.URL + "/MachineLearning",{
+      title: inputValue["title"],
+      text: inputValue["text"],
+      subject: inputValue["subject"],
+      date_article: inputValue["date"]
+    }, {headers}).subscribe( res =>
+      {
+        console.log("value: ")
+        console.log(res.valueOf());
+        if(res.valueOf())
+          this.result = "Yes";
+        else
+          this.result = "No";
+        if(localStorage.getItem("user") != null){
+          console.log("urmeaza sa fie inserat articolul in BD");
+          this.http.post<IInputData>(this.URL + "/UserData",{
+            token: localStorage.getItem("user"),
+            title: inputValue["title"],
+            text: inputValue["text"],
+            subject: inputValue["subject"],
+            date_article: inputValue["date"],
+            is_fake: true
+          }, {headers, observe: 'response'}).subscribe(res =>{
+            if (res.status == 201)
+              this.reloadComponent();
+            else if (res.status == 401)
+              this.router.navigate([""]);
+          });
+        }
+      });
    }
  }
 }

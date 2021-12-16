@@ -17,6 +17,7 @@ import { HttpClientModule } from  '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { IncorrectInputComponent } from './components/incorrect-input/incorrect-input.component';
 import { AuthGuard } from './services/auth-guard';
+import { SignUpErrorComponent } from './components/sign-up-error/sign-up-error.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AuthGuard } from './services/auth-guard';
     routingComponents,
     ModalComponent,
     IncorrectInputComponent,
+    SignUpErrorComponent,
   ],
   imports: [
     BrowserModule,
