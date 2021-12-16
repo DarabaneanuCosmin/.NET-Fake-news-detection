@@ -29,7 +29,7 @@ export class LastInputsUserComponent implements OnInit {
     else{
       console.log("intru sa fac call la url");
       console.log(this.URL + localStorage.getItem("user"));
-      this.http.get<IUserData>(this.URL + localStorage.getItem("user"), {headers}).subscribe(res =>{
+      this.http.get<IUserData>(this.URL, {headers}).subscribe(res =>{
   
       this.data = res.articles;
       this.error = res.error;
