@@ -37,7 +37,10 @@ export class LastInputsUserComponent implements OnInit {
     () => {},
     () => {
       console.log("incep printarea");
-      this.test(); })
+      if(this.data.length != 0){
+        this.test();
+      }
+      })
   }
    }
 
@@ -46,9 +49,9 @@ export class LastInputsUserComponent implements OnInit {
     for (let index = 0; index < this.data.length; index++) {
     console.log(this.data[index].is_fake);
       if (this.data[index].is_fake)
-        answer = "Yes";
+        answer = "Fake";
       else
-        answer = "No";
+        answer = "Not fake";
     document.getElementById("news-list").insertAdjacentHTML('beforeend',
       `<li class="list-element" id="item-no-`+ index +`">
       <p class="text title-text" id="title-no-`+ index +`"> ` + this.data[index].title + ` </p>

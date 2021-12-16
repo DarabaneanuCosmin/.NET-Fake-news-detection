@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 export class DataSetInputComponent implements OnInit {
   private URL = 'http://localhost:5000/api/v1';
   public result = "";
+  public is_fake;
 
   constructor(private http:HttpClient, private router:Router) { }
   ngOnInit(): void {
@@ -42,10 +43,14 @@ export class DataSetInputComponent implements OnInit {
       {
         console.log("value: ")
         console.log(res.valueOf());
-        if(res.valueOf())
+        if(res.valueOf()){
           this.result = "Yes";
-        else
+          this.is_fake = false;
+        }
+        else{
           this.result = "No";
+          this.is_fake = true;
+        }
         if(localStorage.getItem("user") != null){
           console.log("urmeaza sa fie inserat articolul in BD");
           this.http.post<IInputData>(this.URL + "/UserData",{
@@ -54,7 +59,7 @@ export class DataSetInputComponent implements OnInit {
             text: inputValue["text"],
             subject: inputValue["subject"],
             date_article: inputValue["date"],
-            is_fake: true
+            is_fake: this.is_fake
           }, {headers, observe: 'response'}).subscribe(async res =>{
             if (res.status == 201){
               await new Promise(f => setTimeout(f, 1000));
