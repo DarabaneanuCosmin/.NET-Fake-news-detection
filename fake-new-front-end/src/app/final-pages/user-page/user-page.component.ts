@@ -13,8 +13,9 @@ export class UserPageComponent implements OnInit {
   ngOnInit(): void {
     let login = document.getElementById('log-in');
     let signup = document.getElementById('sign-up');
-    login.classList.add("hide-btn");
-    signup.classList.add("hide-btn");
+    document.getElementById('log-out').classList.remove('hhidden');
+    login.classList.add('hhidden');
+    signup.classList.add("hhidden");
   }
 
 }

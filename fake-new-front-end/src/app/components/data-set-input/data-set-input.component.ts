@@ -55,9 +55,11 @@ export class DataSetInputComponent implements OnInit {
             subject: inputValue["subject"],
             date_article: inputValue["date"],
             is_fake: true
-          }, {headers, observe: 'response'}).subscribe(res =>{
-            if (res.status == 201)
+          }, {headers, observe: 'response'}).subscribe(async res =>{
+            if (res.status == 201){
+              await new Promise(f => setTimeout(f, 1000));
               this.reloadComponent();
+            }
             else if (res.status == 401)
               this.router.navigate([""]);
           });

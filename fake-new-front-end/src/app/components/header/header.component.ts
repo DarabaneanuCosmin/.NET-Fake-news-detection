@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   private URL = 'https://localhost:5001/api/v1/UserAuthentification?email=darabaneanucosmin81@gmail.com';
-  //private URL = "/assets/user.json";
   request: any[];
   email = localStorage.getItem("fakenewsemail");
 
@@ -45,6 +44,12 @@ export class HeaderComponent implements OnInit {
   }
 
   move() {
+    this.router.navigate(['/']);
+  }
+
+  logout(){
+    localStorage.clear();
+    document.getElementById("log-out").classList.add('hhidden');
     this.router.navigate(['/']);
   }
 }
