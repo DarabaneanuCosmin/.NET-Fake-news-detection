@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Responses;
+using WebAPIML.Model;
 
 namespace WebAPI.Controllers.v1
 {
@@ -12,7 +13,17 @@ namespace WebAPI.Controllers.v1
         [HttpPost]
         public bool IsArticleFake([FromBody] MLArticle article)
         {
-            return true;
+            var input = new ModelInput()
+            {
+                Title = article.Title,
+                Subject = article.Subject,
+                Text = article.Text,
+                Date = article.Date_article
+            };
+
+            ModelOutput result = ConsumeModel.Predict(input);
+
+            return result.Prediction == "fake " ? true : false;
         }
     }
 }

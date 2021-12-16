@@ -70,3 +70,18 @@ D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persisten
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.dll
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Persistence.pdb
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Domain.dll
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\Domain.pdb
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.dll
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb
