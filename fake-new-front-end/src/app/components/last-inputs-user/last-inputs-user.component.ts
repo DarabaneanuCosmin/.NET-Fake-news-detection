@@ -49,9 +49,9 @@ export class LastInputsUserComponent implements OnInit {
     for (let index = 0; index < this.data.length; index++) {
     console.log(this.data[index].is_fake);
       if (this.data[index].is_fake)
-        answer = "Fake";
-      else
         answer = "Not fake";
+      else
+        answer = "Fake";
     document.getElementById("news-list").insertAdjacentHTML('beforeend',
       `<li class="list-element" id="item-no-`+ index +`">
       <p class="text title-text" id="title-no-`+ index +`"> ` + this.data[index].title + ` </p>
