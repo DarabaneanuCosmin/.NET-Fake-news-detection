@@ -474,3 +474,19 @@ C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\MLModel.zip
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Core.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Data.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.KMeansClustering.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.PCA.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.StandardTrainers.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Transforms.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.CpuMath.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.DataView.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.CodeDom.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\linux-x64\native\libLdaNative.so
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\osx-x64\native\libLdaNative.dylib
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\LdaNative.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb

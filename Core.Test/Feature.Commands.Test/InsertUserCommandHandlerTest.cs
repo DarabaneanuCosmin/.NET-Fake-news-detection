@@ -1,10 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebAPI.Features.Commands;
 using Xunit;
 
@@ -23,15 +17,17 @@ namespace Core.Test
         [Fact]
         public void Insert_User_Should_Return_False()
         {
-            InsertUserCommand user = new InsertUserCommand();
-            user.email_address = "myemail@yopmail.com";
-            user.first_name = "Ion";
-            user.last_name = "Popescu";
-            user.password = "mypass";
+            InsertUserCommand user = new()
+            {
+                Email_address = "myemail@yopmail.com",
+                First_name = "Ion",
+                Last_name = "Popescu",
+                Password = "mypass"
+            };
 
             string token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzgzNzAyOTYsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.Ux9MdLms9snhTHyx_q4ls9UO3TIPFWNAi_aIIr90K3Y";
 
-            var result = insertUserCommandHandler.insertUserDataAsync(user, token);
+            var result = insertUserCommandHandler.InsertUserDataAsync(user, token);
 
             Assert.False(result);
 

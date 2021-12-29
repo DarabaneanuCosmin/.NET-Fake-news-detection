@@ -1,7 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using WebAPI.Features.Config;
 using WebAPI.Features.Queries;
 using WebAPI.Responses;
@@ -22,12 +19,13 @@ namespace Core.Test.Feature.Queries.Test
         [Fact]
         public void IsUser_Should_Return_an_Update_User_Response()
         {
-            GetUserAuthDataQuery getUserAuthDataQuery = new GetUserAuthDataQuery();
-            getUserAuthDataQuery.email_address = "ionpop@gmail.com";
-            getUserAuthDataQuery.encryptedPassword = Security.EncryptString("parola");
+            GetUserAuthDataQuery getUserAuthDataQuery = new()
+            {
+                Email_address = "ionpop@gmail.com",
+                EncryptedPassword = Security.EncryptString("parola")
+            };
 
-
-            var result = getUserAuthDataQueryHandler.isUser(getUserAuthDataQuery);
+            var result = getUserAuthDataQueryHandler.IsUser(getUserAuthDataQuery);
 
             Assert.IsType<UpdateUserResponse>(result);
             Assert.NotNull(result);

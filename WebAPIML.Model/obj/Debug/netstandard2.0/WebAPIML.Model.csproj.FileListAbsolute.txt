@@ -9,3 +9,14 @@ C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPIML.Model\obj\Debu
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.deps.json
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.pdb
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfoInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfo.cs
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
+D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb

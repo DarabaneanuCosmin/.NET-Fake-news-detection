@@ -1,7 +1,6 @@
 ﻿using Application.Features.Queries;
 using Microsoft.Extensions.Configuration;
 using System;
-using System.Diagnostics.CodeAnalysis;
 using Xunit;
 
 namespace Core.Test.Feature.Queries.Test

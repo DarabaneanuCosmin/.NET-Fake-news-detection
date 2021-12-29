@@ -1,8 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
-using System.Collections.Generic;
-using WebAPI.Entities;
 using WebAPI.Features.Config;
 
 namespace WebAPI.Features.Queries
@@ -18,7 +16,7 @@ namespace WebAPI.Features.Queries
         {
             try
             {
-                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new(this.ConnectionString);
                 connection.Open();
 
                 using var command = new MySqlCommand("SELECT * FROM user WHERE user.id = " + "@id", connection);

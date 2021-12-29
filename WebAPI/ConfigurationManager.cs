@@ -9,17 +9,13 @@ namespace WebAPI
     {
         public static IConfiguration AppSetting { get; }
         public static object AppSettings { get; internal set; }
-        public static HttpConfiguration config { get; }
+        public static HttpConfiguration Config { get; }
         static ConfigurationManager()
         {
             AppSetting = new ConfigurationBuilder()
                     .SetBasePath(Directory.GetCurrentDirectory())
                     .AddJsonFile("appsettings.json")
                     .Build();
-         
-           
-
         }
-
     }
 }

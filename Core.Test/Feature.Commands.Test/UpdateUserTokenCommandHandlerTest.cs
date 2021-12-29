@@ -28,7 +28,7 @@ namespace Core.Test
 
             string token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzgzNzAyOTYsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.Ux9MdLms9snhTHyx_q4ls9UO3TIPFWNAi_aIIr90K3Y";
 
-            var result = updateUserTokenCommandHandler.updateUser(user_id, token);
+            var result = updateUserTokenCommandHandler.UpdateUser(user_id, token);
 
             Assert.False(result);
 

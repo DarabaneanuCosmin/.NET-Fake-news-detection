@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace WebAPI.Features.Commands
 {
     public class InsertUserCommand
     {
-        public string email_address { get; set; }
-        public string first_name { get; set; }
-        public string last_name { get; set; }
-        public string password { get; set; }
+        public string Email_address { get; set; }
+        public string First_name { get; set; }
+        public string Last_name { get; set; }
+        public string Password { get; set; }
 
     }
 }

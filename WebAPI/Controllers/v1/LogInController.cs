@@ -8,7 +8,6 @@ using WebAPI.Responses;
 namespace WebAPI.Controllers.v1
 {
     [ApiController]
-
     public class LogInController : BaseController
     {
         [EnableCors]
@@ -16,17 +15,17 @@ namespace WebAPI.Controllers.v1
         public ObjectResult LogIn([FromBody] GetUserAuthDataQuery user, [FromServices] IUserAuthentification userAuthentification)
         {
             if (
-                user.email_address == null ||
-                user.encryptedPassword == null ||
-                user.email_address == string.Empty ||
-                user.encryptedPassword == string.Empty
+                user.Email_address == null ||
+                user.EncryptedPassword == null ||
+                user.Email_address == string.Empty ||
+                user.EncryptedPassword == string.Empty
                 )
             {
                 return StatusCode(StatusCodes.Status206PartialContent, new AuthenticationResponse());
             }
 
             var result = userAuthentification.LogIn(user);
-            if (result.error)
+            if (result.Error)
             {
                 return StatusCode(StatusCodes.Status206PartialContent, "Email or password are wrong!");
             }

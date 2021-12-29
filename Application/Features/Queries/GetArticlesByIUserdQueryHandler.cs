@@ -1,11 +1,7 @@
-﻿
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Threading.Tasks;
-using WebAPI.Entities;
 using WebAPI.Features.Config;
 using WebAPI.Responses;
 
@@ -24,7 +20,7 @@ namespace WebAPI.Features.Queries
             var articles = new List<ArticleResponse>();
             try
             {
-                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new(this.ConnectionString);
                 connection.Open();
 
                 using var command = new MySqlCommand("SELECT * FROM article WHERE article.id_user = " + "@id_user", connection);

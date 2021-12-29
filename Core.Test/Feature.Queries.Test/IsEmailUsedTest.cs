@@ -1,10 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebAPI.Features.Queries;
 using Xunit;
 
@@ -25,7 +19,7 @@ namespace Core.Test.Feature.Queries.Test
         {
             string email_address = "ionpop@gmail.com";
 
-            var result = isEmailUsed.isUsed(email_address);
+            var result = isEmailUsed.IsUsed(email_address);
 
             Assert.IsType<bool>(result);
         }

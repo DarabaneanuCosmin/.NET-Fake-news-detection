@@ -1,7 +1,5 @@
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Diagnostics.CodeAnalysis;
 using WebAPI.Features.Commands;
 using Xunit;
 
@@ -21,12 +19,14 @@ namespace Core.Test
         [Fact]
         public void Insert_Article_Should_Return_True()
         {
-            InsertArticleCommand article = new InsertArticleCommand();
-            article.id_user = new Guid("3fa85f64-5717-4562-b3fc-2c963f66afa6");
-            article.title = "titlu articol";
-            article.text = "acest text este continutul articolului";
-            article.subject = "divertisment";
-            article.date_article = "01/12/2021";
+            InsertArticleCommand article = new()
+            {
+                Id_user = new Guid("3fa85f64-5717-4562-b3fc-2c963f66afa6"),
+                Title = "titlu articol",
+                Text = "acest text este continutul articolului",
+                Subject = "divertisment",
+                Date_article = "01/12/2021"
+            };
 
             var result = insertArticleCommandHandler.InsertArticle(article);
 

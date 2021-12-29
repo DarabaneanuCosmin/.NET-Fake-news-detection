@@ -12,35 +12,37 @@ namespace Infrastructure.Test.Persistence.Builders.Test
     public class GetArticlesBuilderTest
     {
         [Fact]
-        public void builderShouldBeTypeOfGetArticlesResponse()
+        public void BuilderShouldBeTypeOfGetArticlesResponse()
         {
-            List<ArticleResponse> articles = new List<ArticleResponse>();
+            List<ArticleResponse> articles = new();
 
-            var result = GetArticlesBuilder.builder(articles);
+            var result = GetArticlesBuilder.Builder(articles);
 
             Assert.IsType<GetArticlesResponse>(result);
             
         }
 
         [Fact]
-        public void builderErrorShouldBeTrueWhenArticlesListIsEmpty()
+        public void BuilderErrorShouldBeTrueWhenArticlesListIsEmpty()
         {
             var articles = new List<ArticleResponse>();
 
-            var result = GetArticlesBuilder.builder(articles);
+            var result = GetArticlesBuilder.Builder(articles);
 
-            Assert.True(result.error);
+            Assert.True(result.Error);
         }
 
         [Fact]
-        public void builderErrorShouldBeFalseWhenArticlesListIsNotEmpty()
+        public void BuilderErrorShouldBeFalseWhenArticlesListIsNotEmpty()
         {
-            var articles = new List<ArticleResponse>();
-            articles.Add(new ArticleResponse());
+            var articles = new List<ArticleResponse>
+            {
+                new ArticleResponse()
+            };
 
-            var result = GetArticlesBuilder.builder(articles);
+            var result = GetArticlesBuilder.Builder(articles);
 
-            Assert.False(result.error);
+            Assert.False(result.Error);
         }
     }
 }

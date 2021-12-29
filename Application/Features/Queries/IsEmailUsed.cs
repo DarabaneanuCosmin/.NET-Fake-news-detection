@@ -1,10 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebAPI.Features.Config;
 
 namespace WebAPI.Features.Queries
@@ -16,11 +12,11 @@ namespace WebAPI.Features.Queries
         {
         }
 
-        public bool isUsed(string email_address)
+        public bool IsUsed(string email_address)
         {
             try
             {
-                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new(this.ConnectionString);
                 connection.OpenAsync();
 
                 using var command = new MySqlCommand("SELECT * FROM user WHERE user.email_address = " 

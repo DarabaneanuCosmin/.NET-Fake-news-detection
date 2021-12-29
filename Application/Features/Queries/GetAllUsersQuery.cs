@@ -17,7 +17,6 @@ namespace WebAPI.Features.Queries
             using var reader = await command.ExecuteReaderAsync();
             reader.Read();
             var value = reader.GetString(1);
-            // do something with 'value'
             return value;
         }
     }

@@ -6,7 +6,6 @@ using WebAPIML.Model;
 namespace WebAPI.Controllers.v1
 {
     [ApiController]
-
     public class MachineLearningController : BaseController
     {
         [EnableCors]
@@ -23,7 +22,7 @@ namespace WebAPI.Controllers.v1
 
             ModelOutput result = ConsumeModel.Predict(input);
 
-            return result.Prediction == "fake " ? true : false;
+            return result.Prediction == "fake ";
         }
     }
 }

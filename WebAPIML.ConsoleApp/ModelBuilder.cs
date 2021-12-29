@@ -12,11 +12,11 @@ namespace WebAPIML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\dataset.csv";
-        private static string MODEL_FILEPATH = @"C:\Users\razvy\AppData\Local\Temp\MLVSTools\WebAPIML\WebAPIML.Model\MLModel.zip";
+        private static readonly string TRAIN_DATA_FILEPATH = @"C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\dataset.csv";
+        private static readonly string MODEL_FILEPATH = @"C:\Users\razvy\AppData\Local\Temp\MLVSTools\WebAPIML\WebAPIML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
-        private static MLContext mlContext = new MLContext(seed: 1);
+        private static readonly MLContext mlContext = new MLContext(seed: 1);
 
         public static void CreateModel()
         {

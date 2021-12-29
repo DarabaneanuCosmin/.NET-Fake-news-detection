@@ -4,10 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using WebAPI.Features.Commands;
 using WebAPI.Features.Queries;
 using WebAPI.Services;
-using WebAPI.Assemblers;
 using Application.Features.Queries;
 using WebAPI.Interfaces;
-using WebAPI.Features.Config;
 
 namespace WebAPI
 {

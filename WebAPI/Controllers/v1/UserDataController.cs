@@ -1,7 +1,4 @@
 using System;
-using System.IdentityModel.Tokens.Jwt;
-using System.Net;
-using System.Net.Http;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -26,10 +23,9 @@ namespace WebAPI.Controllers.v1
             [FromServices] IUserData userData
             )
         {
-            if (insert.token != null && Security.JWTTokenValidation(insert.token))
+            if (insert.Token != null && Security.JWTTokenValidation(insert.Token))
             {
                 return StatusCode(StatusCodes.Status401Unauthorized, "Invalid token");
-
             }
 
             userData.Insert(insert);
@@ -51,7 +47,7 @@ namespace WebAPI.Controllers.v1
 
             }
             GetArticlesResponse articlesResponse = userData.GetArticles(token);
-            if (articlesResponse.articles.Count == 0)
+            if (articlesResponse.Articles.Count == 0)
             {
                 return StatusCode(StatusCodes.Status200OK, "No data found");
             }

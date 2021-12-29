@@ -1,7 +1,6 @@
 ﻿using WebAPI.Features.Commands;
 using JWT.Algorithms;
 using JWT.Builder;
-using Microsoft.AspNetCore.Authentication;
 using System;
 using WebAPI.Assemblers;
 using WebAPI.Responses;
@@ -14,9 +13,9 @@ namespace WebAPI.Services
     public class UserAuthentificationService : IUserAuthentification
     {
         readonly GetUserAuthDataQueryHandler GetUserAuthDataQueryHandler;
-        readonly InsertUserCommandHandler insertUserCommandHandler;
-        readonly IsEmailUsed isEmailUsed;
-        readonly UpdateUserTokenCommandHandler updateUserTokenCommandHandler;
+        readonly InsertUserCommandHandler InsertUserCommandHandler;
+        readonly IsEmailUsed IsEmailUsed;
+        readonly UpdateUserTokenCommandHandler UpdateUserTokenCommandHandler;
         public UserAuthentificationService(
             [FromService] InsertUserCommandHandler insertUserCommandHandler,
             [FromService] GetUserAuthDataQueryHandler getUserAuthDataQueryHandler,
@@ -24,41 +23,39 @@ namespace WebAPI.Services
             [FromService] UpdateUserTokenCommandHandler updateUserTokenCommandHandler
             )
         {
-            this.insertUserCommandHandler = insertUserCommandHandler;
+            this.InsertUserCommandHandler = insertUserCommandHandler;
             this.GetUserAuthDataQueryHandler = getUserAuthDataQueryHandler;
-            this.isEmailUsed = isEmailUsed;
-            this.updateUserTokenCommandHandler = updateUserTokenCommandHandler;
+            this.IsEmailUsed = isEmailUsed;
+            this.UpdateUserTokenCommandHandler = updateUserTokenCommandHandler;
         }
-
-
 
         public AuthenticationResponse SignUp(InsertUserCommand user)
         {
 
-            if (!isEmailUsed.isUsed(user.email_address))
+            if (!IsEmailUsed.IsUsed(user.Email_address))
             {
-                var token = generateToken(user.email_address);
-                var error = insertUserCommandHandler.insertUserDataAsync(user, token);
-                return AuthentificationBuilder.builder(token, error);
+                var token = GenerateToken(user.Email_address);
+                var error = InsertUserCommandHandler.InsertUserDataAsync(user, token);
+                return AuthentificationBuilder.Builder(token, error);
             }
-            return AuthentificationBuilder.builder("", true);
+            return AuthentificationBuilder.Builder("", true);
         }
 
         public AuthenticationResponse LogIn(GetUserAuthDataQuery userData)
         {
-            var isUser = this.GetUserAuthDataQueryHandler.isUser(userData);
+            var isUser = this.GetUserAuthDataQueryHandler.IsUser(userData);
             bool error = true;
             var token = "";
-            if (isUser.result)
+            if (isUser.Result)
             {
                 error = false;
-                token = generateToken(userData.email_address);
-                updateUserTokenCommandHandler.updateUser(isUser.id, token);
+                token = GenerateToken(userData.Email_address);
+                UpdateUserTokenCommandHandler.UpdateUser(isUser.Id, token);
             }
-            return AuthentificationBuilder.builder(token, error);
+            return AuthentificationBuilder.Builder(token, error);
         }
 
-        public static string generateToken(string email)
+        public static string GenerateToken(string email)
         {
             var secret = email;
             var token = JwtBuilder.Create()

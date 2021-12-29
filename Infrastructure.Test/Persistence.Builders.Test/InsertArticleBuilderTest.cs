@@ -12,9 +12,9 @@ namespace Infrastructure.Test.Persistence.Builders.Test
     public class InsertArticleBuilderTest
     {
         [Fact]
-        public void builderShouldBeTypeOfInsertArticleResponse()
+        public void BuilderShouldBeTypeOfInsertArticleResponse()
         {
-            var result = InsertArticleBuilder.builder(true);
+            var result = InsertArticleBuilder.Builder(true);
 
             Assert.IsType<InsertArticleResponse>(result);
         }

@@ -4,7 +4,7 @@ namespace WebAPI.Entities
 {
     public class Session
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
 
         public string Token { get; set; }
 

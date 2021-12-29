@@ -2,8 +2,8 @@
 {
     public class AuthenticationResponse
     {
-        public string token { get; set; }
+        public string Token { get; set; }
 
-        public bool error { get; set; }
+        public bool Error { get; set; }
     }
 }

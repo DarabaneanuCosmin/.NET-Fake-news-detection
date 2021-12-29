@@ -1,10 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebAPI.Features.Queries;
 using Xunit;
 
@@ -23,7 +18,7 @@ namespace Core.Test.Feature.Queries.Test
         [Fact]
         public void IsUserWithId_Should_Return_Bool()
         {
-            Guid query = new Guid("457cce54-f5c9-4045-88b0-776c8e368df0");
+            Guid query = new("457cce54-f5c9-4045-88b0-776c8e368df0");
 
             var result = isUserWithIdQueryHandler.IsUserWithId(query);
 

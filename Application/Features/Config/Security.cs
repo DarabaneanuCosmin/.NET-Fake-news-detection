@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WebAPI.Features.Config
 {
@@ -42,7 +38,6 @@ namespace WebAPI.Features.Config
             if (expDate < DateTime.UtcNow.AddMinutes(1))
             {
                 return true;
-
             }
             return false;
         }

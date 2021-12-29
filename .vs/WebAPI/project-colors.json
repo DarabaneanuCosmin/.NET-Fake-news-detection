@@ -40,7 +40,17 @@
       "ProjectGuid": "9471e9af-03b2-4e3c-bb25-4757192ad356",
       "DisplayName": "Infrastructure.Test",
       "ColorIndex": 6
+    },
+    "c9ac79f7-f261-47ea-89b8-46630ba57fa0": {
+      "ProjectGuid": "c9ac79f7-f261-47ea-89b8-46630ba57fa0",
+      "DisplayName": "WebAPIML.ConsoleApp",
+      "ColorIndex": 7
+    },
+    "c395ba1c-2f7d-447c-996d-862cf4847a60": {
+      "ProjectGuid": "c395ba1c-2f7d-447c-996d-862cf4847a60",
+      "DisplayName": "WebAPIML.Model",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

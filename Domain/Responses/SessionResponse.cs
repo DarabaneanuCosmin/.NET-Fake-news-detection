@@ -1,4 +1,5 @@
-﻿namespace WebAPI.Responses
+﻿
+namespace WebAPI.Responses
 {
     public class SessionResponse
     {

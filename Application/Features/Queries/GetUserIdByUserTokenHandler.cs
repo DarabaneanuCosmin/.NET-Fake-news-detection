@@ -1,8 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
-using System.Collections.Generic;
-using WebAPI.Entities;
 using WebAPI.Features.Config;
 
 namespace Application.Features.Queries
@@ -20,7 +18,7 @@ namespace Application.Features.Queries
             try
             {
 
-                MySqlConnection connection = new MySqlConnection(this.connectionString);
+                MySqlConnection connection = new(this.ConnectionString);
                 connection.Open();
                 using var command = new MySqlCommand("SELECT user.id FROM user WHERE user.token = " + "@token", connection);
                 command.Parameters.AddWithValue("@token", token);
