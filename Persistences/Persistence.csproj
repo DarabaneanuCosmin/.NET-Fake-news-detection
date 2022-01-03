@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\WebAPIML.Model\WebAPIML.Model.csproj" />
   </ItemGroup>
 
 </Project>

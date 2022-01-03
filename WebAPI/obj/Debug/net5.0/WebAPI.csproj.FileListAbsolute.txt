@@ -490,3 +490,19 @@ D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\run
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Core.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Data.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.KMeansClustering.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.PCA.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.StandardTrainers.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Transforms.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.CpuMath.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.DataView.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb

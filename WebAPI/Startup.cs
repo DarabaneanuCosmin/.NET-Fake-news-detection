@@ -17,7 +17,6 @@ namespace WebAPI
 
         public IConfiguration Configuration { get; set; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -26,7 +25,6 @@ namespace WebAPI
             services.AddTransient<MySqlConnection>(_ => new MySqlConnection(Configuration["ConnectionStrings:Default"]));
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -39,8 +37,8 @@ namespace WebAPI
             app.UseCors(x => x
                .AllowAnyMethod()
                .AllowAnyHeader()
-               .SetIsOriginAllowed(origin => true) // allow any origin
-               .AllowCredentials()); // allow credentials            
+               .SetIsOriginAllowed(origin => true)
+               .AllowCredentials());
 
             app.UseHttpsRedirection();
 

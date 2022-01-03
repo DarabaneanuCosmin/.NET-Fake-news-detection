@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {}
+    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {
+    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
         "projectName": "WebAPIML.ConsoleApp",
-        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
-        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\obj\\",
+        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -34,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
-                "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
+              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
               }
             }
           }
@@ -67,8 +61,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.22, 3.1.22]"
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
             }
           ],
           "frameworkReferences": {
@@ -76,28 +82,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
         "projectName": "WebAPIML.Model",
-        "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
-        "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
-        "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
+        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -143,7 +143,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

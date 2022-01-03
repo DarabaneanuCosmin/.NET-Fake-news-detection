@@ -5,7 +5,6 @@ namespace WebAPI.Features.Config
 {
     public static class Security
     {
-
         public static string DecryptString(string encrString)
         {
             byte[] b;

@@ -20,3 +20,14 @@ D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\ne
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.deps.json
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.AssemblyReference.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfoInputs.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfo.cs
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb

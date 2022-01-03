@@ -85,3 +85,6 @@ C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Persistences\obj\Debug\net5.0\Persistence.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Persistences\bin\Debug\net5.0\WebAPIML.Model.pdb

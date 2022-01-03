@@ -105,3 +105,6 @@ C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Services\obj\Debug\net5
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\razvy\Documents\GitHub\.NET-Fake-news-detection\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\bin\Debug\net5.0\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\bin\Debug\net5.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Services\bin\Debug\net5.0\WebAPIML.Model.pdb
