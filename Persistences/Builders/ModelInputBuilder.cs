@@ -8,9 +8,9 @@ using WebAPIML.Model;
 
 namespace WebAPI.Assemblers
 {
-    public class ModelInputBuilder
+    public static class ModelInputBuilder
     {
-        public ModelInput builder(MLArticle article)
+        public static ModelInput Builder(MLArticle article)
         {
             return new ModelInput()
             {

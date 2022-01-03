@@ -13,9 +13,9 @@ namespace WebAPI.Controllers.v1
 
         [EnableCors]
         [HttpPost]
-        public bool IsArticleFake([FromBody] MLArticle article, [FromServices] ModelInputBuilder model)
+        public bool IsArticleFake([FromBody] MLArticle article)
         {
-            var input = model.builder(article);
+            var input = ModelInputBuilder.Builder(article);
 
             ModelOutput result = ConsumeModel.Predict(input);
 
