@@ -31,3 +31,14 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.deps.json
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\bin\Debug\netstandard2.0\WebAPIML.Model.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.AssemblyReference.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfoInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.AssemblyInfo.cs
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.csproj.CoreCompileInputs.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.Model\obj\Debug\netstandard2.0\WebAPIML.Model.pdb

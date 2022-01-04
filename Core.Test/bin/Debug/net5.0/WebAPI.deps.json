@@ -1918,7 +1918,8 @@
       },
       "Persistence/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "WebAPIML.Model": "1.0.0"
         },
         "runtime": {
           "Persistence.dll": {}
@@ -1933,6 +1934,7 @@
           "Domain": "1.0.0",
           "JWT": "8.7.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Persistence": "1.0.0",
           "System.ServiceModel.Primitives": "4.9.0"
         },

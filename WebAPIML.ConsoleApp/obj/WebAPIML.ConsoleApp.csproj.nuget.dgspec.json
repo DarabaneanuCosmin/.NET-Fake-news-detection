@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {}
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
         "projectName": "WebAPIML.ConsoleApp",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\obj\\",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\WebAPIML.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
               }
             }
           }
@@ -59,44 +59,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
         "projectName": "WebAPIML.Model",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,7 +125,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

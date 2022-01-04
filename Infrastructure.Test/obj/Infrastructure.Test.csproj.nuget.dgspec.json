@@ -1,20 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj": {}
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\obj\\",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj",
         "projectName": "Infrastructure.Test",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Infrastructure.Test\\obj\\",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Infrastructure.Test\\Infrastructure.Test.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Infrastructure.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +154,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+              },
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj"
               }
             }
           }
@@ -98,6 +173,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
@@ -134,21 +217,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Persistences\\obj\\",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,11 +245,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
-                "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
               }
             }
           }
@@ -195,21 +278,103 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
-        "projectName": "WebAPIML.Model",
-        "projectPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
-        "packagesPath": "C:\\Users\\40750\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40750\\Documents\\Projects\\.NET\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\40750\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj"
+              },
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+              },
+              "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+                "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "projectName": "WebAPIML.Model",
+        "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+        "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,7 +421,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

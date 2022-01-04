@@ -506,3 +506,19 @@ C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-d
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
 C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\MLModel.zip
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Core.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Data.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.KMeansClustering.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.PCA.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.StandardTrainers.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.Transforms.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.CpuMath.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.ML.DataView.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.CodeDom.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\linux-x64\native\libLdaNative.so
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\osx-x64\native\libLdaNative.dylib
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\LdaNative.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb
