@@ -32,6 +32,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIML.Model", "WebAPIML.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIML.ConsoleApp", "WebAPIML.ConsoleApp\WebAPIML.ConsoleApp.csproj", "{C9AC79F7-F261-47EA-89B8-46630BA57FA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{77B0284D-695E-452F-B5B3-D685D62D7C68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{C9AC79F7-F261-47EA-89B8-46630BA57FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9AC79F7-F261-47EA-89B8-46630BA57FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9AC79F7-F261-47EA-89B8-46630BA57FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B0284D-695E-452F-B5B3-D685D62D7C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B0284D-695E-452F-B5B3-D685D62D7C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B0284D-695E-452F-B5B3-D685D62D7C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B0284D-695E-452F-B5B3-D685D62D7C68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{9EE3E16D-7D84-41CA-AF69-976D75584022} = {74CD92FD-AC0A-47B1-A94B-31A76187ABF2}
 		{85F4048C-577F-4919-97B1-9727D91CFF3F} = {1B8CF3BD-0395-4E92-8CAE-62596B7827FD}
 		{9471E9AF-03B2-4E3C-BB25-4757192AD356} = {1B8CF3BD-0395-4E92-8CAE-62596B7827FD}
+		{77B0284D-695E-452F-B5B3-D685D62D7C68} = {1B8CF3BD-0395-4E92-8CAE-62596B7827FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DE34ACA-8470-4BCE-9076-95B46C70369A}

@@ -5,17 +5,23 @@ using WebAPI.Services;
 using Xunit;
 using Microsoft.Extensions.Configuration;
 using WebAPI.Responses;
+using System;
 
 namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.UserDataServices.Test
 {
     public class UserDataServiceTest
     {
+
+        private readonly IConfigurationRoot configuration;
+        public UserDataServiceTest()
+        {
+            configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+        }
+
         [Fact]
         public void AfterInitializationAllFieldsShouldNotBeNull()
         {
             //arrange 
-            var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-
             InsertArticleCommandHandler insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
             IsUserWithIdQueryHandler isUserWithIdQueryHandler = new IsUserWithIdQueryHandler(configuration);
             GetUserIdByUserTokenHandler getUserIdByUserTokenHandler = new GetUserIdByUserTokenHandler(configuration);
@@ -40,7 +46,6 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
             insertArticleUsingTokenCommand.Title = "titlu";
             insertArticleUsingTokenCommand.Date_article = "10/10/2010";
             insertArticleUsingTokenCommand.Is_fake = true;
-            var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
             InsertArticleCommandHandler insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
             IsUserWithIdQueryHandler isUserWithIdQueryHandler = new IsUserWithIdQueryHandler(configuration);
             GetUserIdByUserTokenHandler getUserIdByUserTokenHandler = new GetUserIdByUserTokenHandler(configuration);
@@ -66,7 +71,6 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
             insertArticleUsingTokenCommand.Title = "titlu";
             insertArticleUsingTokenCommand.Date_article = "10/10/2010";
             insertArticleUsingTokenCommand.Is_fake = true;
-            var configuration = new ConfigurationBuilder().AddConfiguration().Build();
             InsertArticleCommandHandler insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
             IsUserWithIdQueryHandler isUserWithIdQueryHandler = new IsUserWithIdQueryHandler(configuration);
             GetUserIdByUserTokenHandler getUserIdByUserTokenHandler = new GetUserIdByUserTokenHandler(configuration);
@@ -85,7 +89,6 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
         public void GetArticles_ExpectEmptyCollection()
         {
             //arrange 
-            var configuration = new ConfigurationBuilder().Build();
             InsertArticleCommandHandler insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
             IsUserWithIdQueryHandler isUserWithIdQueryHandler = new IsUserWithIdQueryHandler(configuration);
             GetUserIdByUserTokenHandler getUserIdByUserTokenHandler = new GetUserIdByUserTokenHandler(configuration);

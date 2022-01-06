@@ -302,3 +302,9 @@ D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastru
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\obj\Debug\net5.0\ref\Infrastructure.Test.dll
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\obj\Debug\net5.0\Infrastructure.Test.pdb
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\obj\Debug\net5.0\Infrastructure.Test.genruntimeconfig.cache
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\Infrastructure.Test\bin\Debug\net5.0\System.Text.Json.dll

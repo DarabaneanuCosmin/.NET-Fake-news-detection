@@ -522,3 +522,11 @@ D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bi
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.dll
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\WebAPIML.Model.pdb
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Json.dll
