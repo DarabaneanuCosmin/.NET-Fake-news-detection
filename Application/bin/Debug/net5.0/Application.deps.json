@@ -292,6 +292,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
         "runtime": {
           "Domain.dll": {}
         }

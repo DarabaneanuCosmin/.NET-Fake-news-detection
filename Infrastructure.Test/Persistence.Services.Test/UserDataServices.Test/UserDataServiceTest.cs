@@ -40,7 +40,7 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
         {
             //arrange 
             InsertArticleUsingTokenCommand insertArticleUsingTokenCommand = new InsertArticleUsingTokenCommand();
-            insertArticleUsingTokenCommand.Token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzkxMzM1NjEsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.BVIYs3MPQ7uhOnbNpOZK_fGtmDUPgtZVa44lo0mXPy0";
+            insertArticleUsingTokenCommand.Token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzkwNjc1MTMsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.QRokEq_-o94AVG94hjp5ezhwNH3KdsnEiedt3BfdIjI";
             insertArticleUsingTokenCommand.Subject = "test";
             insertArticleUsingTokenCommand.Text = "text";
             insertArticleUsingTokenCommand.Title = "titlu";

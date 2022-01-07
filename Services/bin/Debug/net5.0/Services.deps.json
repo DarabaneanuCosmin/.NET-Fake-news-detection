@@ -1600,6 +1600,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
         "runtime": {
           "Domain.dll": {}
         }
@@ -1607,6 +1610,7 @@
       "Persistence/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.CSharp": "4.5.0",
           "WebAPIML.Model": "1.0.0"
         },
         "runtime": {
@@ -1615,6 +1619,7 @@
       },
       "WebAPIML.Model/1.0.0": {
         "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
           "Microsoft.ML": "1.5.0-preview2"
         },
         "runtime": {

@@ -3592,25 +3592,34 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Microsoft.CSharp >= 4.3.0",
       "Microsoft.ML >= 1.5.0-preview2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\personal PC\\.nuget\\packages\\": {}
+    "C:\\Users\\DenisaIonela\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+      "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
       "projectName": "WebAPIML.Model",
-      "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
-      "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
+      "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj",
+      "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+      "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -3635,6 +3644,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "Microsoft.ML": {
             "target": "Package",
             "version": "[1.5.0-preview2, )"
@@ -3656,7 +3669,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

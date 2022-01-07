@@ -44,7 +44,9 @@ namespace Infrastructure.Test.Persistence.Services.Test
             UserAuthentificationService userAuth = new UserAuthentificationService(insertUserCommandHandler, getUserAuthDataQueryHandler, isEmailUsed, updateUserTokenCommandHandler);
 
             InsertUserCommand insertUser = new InsertUserCommand();
-            insertUser.Email_address = "ctlnlzr09@yahoo.com";
+            insertUser.Email_address = "ionela@yahoo.com";
+            insertUser.Last_name = "string";
+            insertUser.First_name = "string";
 
             //act
             AuthenticationResponse response = userAuth.SignUp(insertUser);
@@ -73,7 +75,7 @@ namespace Infrastructure.Test.Persistence.Services.Test
             AuthenticationResponse response = userAuth.SignUp(insertUser);
 
             //assert
-            Assert.False(response.Error);
+            Assert.True(response.Error);
         }
 
         [Fact]
@@ -93,7 +95,7 @@ namespace Infrastructure.Test.Persistence.Services.Test
             AuthenticationResponse response = userAuth.LogIn(getUser);
 
             //assert
-            Assert.False(response.Error);
+            Assert.True(response.Error);
         }
 
         [Fact]

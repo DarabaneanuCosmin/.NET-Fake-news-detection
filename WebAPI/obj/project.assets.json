@@ -2585,6 +2585,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -2597,6 +2600,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.CSharp": "4.3.0",
           "WebAPIML.Model": "1.0.0"
         },
         "compile": {
@@ -2629,6 +2633,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
           "Microsoft.ML": "1.5.0-preview2"
         },
         "compile": {
@@ -8535,20 +8540,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\personal PC\\.nuget\\packages\\": {}
+    "C:\\Users\\DenisaIonela\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\personal PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPI\\obj\\",
+      "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\DenisaIonela\\.nuget\\packages\\",
+      "outputPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\DenisaIonela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -8561,20 +8574,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj": {
-              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Application\\Application.csproj"
+            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj": {
+              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Application\\Application.csproj"
             },
-            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
+            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Domain\\Domain.csproj"
             },
-            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
-              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
+            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj": {
+              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Persistences\\Persistence.csproj"
             },
-            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj": {
-              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\Services\\Services.csproj"
+            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj": {
+              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\Services\\Services.csproj"
             },
-            "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
-              "projectPath": "D:\\Facultate\\an 3\\sem 1\\.Net\\server-Fake newe\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
+            "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj": {
+              "projectPath": "D:\\FACULTATE\\Anul lll sem l\\.NET-Fake-news-detection\\WebAPIML.Model\\WebAPIML.Model.csproj"
             }
           }
         }
@@ -8628,6 +8641,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8636,7 +8655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
