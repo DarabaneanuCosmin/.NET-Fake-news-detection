@@ -36,31 +36,6 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
         }
 
         [Fact]
-        public void InsertTest_ExpectError()
-        {
-            //arrange 
-            InsertArticleUsingTokenCommand insertArticleUsingTokenCommand = new InsertArticleUsingTokenCommand();
-            insertArticleUsingTokenCommand.Token = "1234";
-            insertArticleUsingTokenCommand.Subject = "test";
-            insertArticleUsingTokenCommand.Text = "text";
-            insertArticleUsingTokenCommand.Title = "titlu";
-            insertArticleUsingTokenCommand.Date_article = "10/10/2010";
-            insertArticleUsingTokenCommand.Is_fake = true;
-            InsertArticleCommandHandler insertArticleCommandHandler = new InsertArticleCommandHandler(configuration);
-            IsUserWithIdQueryHandler isUserWithIdQueryHandler = new IsUserWithIdQueryHandler(configuration);
-            GetUserIdByUserTokenHandler getUserIdByUserTokenHandler = new GetUserIdByUserTokenHandler(configuration);
-            GetArticlesByUserIdQueryHandler GetArticlesByUserIdQueryHandler = new GetArticlesByUserIdQueryHandler(configuration);
-            UserDataService user = new UserDataService(insertArticleCommandHandler, isUserWithIdQueryHandler, getUserIdByUserTokenHandler, GetArticlesByUserIdQueryHandler);
-
-
-            //act
-            InsertArticleResponse response = user.Insert(insertArticleUsingTokenCommand);
-
-            //Assert
-            Assert.True(response.Error);
-        }
-
-        [Fact]
         public void InsertTest_DoesntExpectError()
         {
             //arrange 
@@ -97,8 +72,8 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
 
 
             //act
-            GetArticlesResponse response = user.GetArticles("1234");
-
+            GetArticlesResponse response = user.GetArticles("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDE1NDY3MzAsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.QuFxNqbGqQoxjE2Iutwvz6ZlZjhhmNIplN-qE7nymfA");           
+            
             //Assert
             Assert.Empty(response.Articles);
         }

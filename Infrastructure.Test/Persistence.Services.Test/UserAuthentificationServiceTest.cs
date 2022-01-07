@@ -34,7 +34,7 @@ namespace Infrastructure.Test.Persistence.Services.Test
         }
 
         [Fact]
-        public void SignUp_ExpectFalse()
+        public void SignUp_ExpectTrue()
         {
             //arrange
             InsertUserCommandHandler insertUserCommandHandler = new InsertUserCommandHandler(configuration);
@@ -50,11 +50,11 @@ namespace Infrastructure.Test.Persistence.Services.Test
             AuthenticationResponse response = userAuth.SignUp(insertUser);
 
             //assert
-            Assert.False(response.Error);
+            Assert.True(response.Error);
         }
 
         [Fact]
-        public void SignUp_ExpectTrue()
+        public void SignUp_ExpectFalse()
         {
             //arrange
             InsertUserCommandHandler insertUserCommandHandler = new InsertUserCommandHandler(configuration);
@@ -65,12 +65,15 @@ namespace Infrastructure.Test.Persistence.Services.Test
 
             InsertUserCommand insertUser = new InsertUserCommand();
             insertUser.Email_address = "abcdf@yahoo.com";
+            insertUser.First_name = "Lazar";
+            insertUser.Last_name = "Catalina";
+            insertUser.Password = "parola";
 
             //act
             AuthenticationResponse response = userAuth.SignUp(insertUser);
 
             //assert
-            Assert.True(response.Error);
+            Assert.False(response.Error);
         }
 
         [Fact]
