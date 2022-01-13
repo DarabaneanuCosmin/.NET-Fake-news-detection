@@ -543,3 +543,27 @@ D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.Core.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.Data.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.KMeansClustering.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.PCA.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.StandardTrainers.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.Transforms.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.CpuMath.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\Microsoft.ML.DataView.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\runtimes\win-x64\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\runtimes\win-x86\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\Core.Test\bin\Debug\net5.0\WebAPIML.Model.pdb

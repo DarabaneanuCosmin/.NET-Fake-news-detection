@@ -40,7 +40,7 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
         {
             //arrange 
             InsertArticleUsingTokenCommand insertArticleUsingTokenCommand = new InsertArticleUsingTokenCommand();
-            insertArticleUsingTokenCommand.Token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzkwNjc1MTMsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.QRokEq_-o94AVG94hjp5ezhwNH3KdsnEiedt3BfdIjI";
+            insertArticleUsingTokenCommand.Token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzgzNzAyOTYsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.Ux9MdLms9snhTHyx_q4ls9UO3TIPFWNAi_aIIr90K3Y";
             insertArticleUsingTokenCommand.Subject = "test";
             insertArticleUsingTokenCommand.Text = "text";
             insertArticleUsingTokenCommand.Title = "titlu";
@@ -72,10 +72,10 @@ namespace Infrastructure.Test.Persistence.Services.Test.Persistence.Services.Use
 
 
             //act
-            GetArticlesResponse response = user.GetArticles("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDE1NDY3MzAsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.QuFxNqbGqQoxjE2Iutwvz6ZlZjhhmNIplN-qE7nymfA");           
+            GetArticlesResponse response = user.GetArticles("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzgzNzAyOTYsImNsYWltMiI6ImNsYWltMi12YWx1ZSJ9.Ux9MdLms9snhTHyx_q4ls9UO3TIPFWNAi_aIIr90K3Y");           
             
             //Assert
-            Assert.Empty(response.Articles);
+            Assert.NotEmpty(response.Articles);
         }
 
     }

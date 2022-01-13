@@ -44,7 +44,7 @@ namespace Infrastructure.Test.Persistence.Services.Test
             UserAuthentificationService userAuth = new UserAuthentificationService(insertUserCommandHandler, getUserAuthDataQueryHandler, isEmailUsed, updateUserTokenCommandHandler);
 
             InsertUserCommand insertUser = new InsertUserCommand();
-            insertUser.Email_address = "ionela@yahoo.com";
+            insertUser.Email_address = "string123";
             insertUser.Last_name = "string";
             insertUser.First_name = "string";
 

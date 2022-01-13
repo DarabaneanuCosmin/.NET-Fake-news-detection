@@ -62,3 +62,35 @@ D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.dll
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.pdb
 D:\Facultate\an 3\sem 1\.Net\server-Fake newe\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.genruntimeconfig.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\MLModel.zip
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.exe
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.deps.json
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.runtimeconfig.json
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.runtimeconfig.dev.json
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Core.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Data.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.KMeansClustering.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.PCA.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.StandardTrainers.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Transforms.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.CpuMath.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.DataView.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.Model.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\bin\Debug\netcoreapp3.1\WebAPIML.Model.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.AssemblyInfo.cs
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.csproj.CopyComplete
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.pdb
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPIML.ConsoleApp\obj\Debug\netcoreapp3.1\WebAPIML.ConsoleApp.genruntimeconfig.cache

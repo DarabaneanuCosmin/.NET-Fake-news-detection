@@ -538,3 +538,11 @@ D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Mic
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Encodings.Web.dll
 D:\FACULTATE\Anul lll sem l\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\40750\Documents\Projects\.NET\.NET-Fake-news-detection\.NET-Fake-news-detection\.NET-Fake-news-detection\WebAPI\bin\Debug\net5.0\System.Text.Json.dll
