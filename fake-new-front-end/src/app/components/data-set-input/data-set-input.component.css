@@ -51,6 +51,7 @@
 #content{
     height: 10em;
     width: 20em;
+    word-break: break-word;
 }
 
 .data-set-output{
