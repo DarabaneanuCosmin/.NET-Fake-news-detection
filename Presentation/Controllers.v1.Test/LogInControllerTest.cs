@@ -6,5 +6,6 @@ namespace Presentation.Controllers.v1.Test
 {
     class LogInControllerTest
     {
+        
     }
 }

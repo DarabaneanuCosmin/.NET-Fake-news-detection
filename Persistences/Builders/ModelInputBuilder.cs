@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ using WebAPIML.Model;
 
 namespace WebAPI.Assemblers
 {
+    [ExcludeFromCodeCoverage]
     public static class ModelInputBuilder
     {
         public static ModelInput Builder(MLArticle article)

@@ -36,6 +36,7 @@ Included items must then not match any entries in the exclude list to remain inc
 								<ModulePath>core.test.dll</ModulePath>
 								<ModulePath>presentation.test.dll</ModulePath>
 								<ModulePath>infrastructure.test.dll</ModulePath>
+								<ModulePath>.*webapiml.*</ModulePath>
 								<ModulePath>moq.dll</ModulePath>
                 <ModulePath>domain.dll</ModulePath>
                 <ModulePath>webapiml.model.dll</ModulePath>
