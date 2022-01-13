@@ -50,7 +50,12 @@
       "ProjectGuid": "c395ba1c-2f7d-447c-996d-862cf4847a60",
       "DisplayName": "WebAPIML.Model",
       "ColorIndex": 8
+    },
+    "77b0284d-695e-452f-b5b3-d685d62d7c68": {
+      "ProjectGuid": "77b0284d-695e-452f-b5b3-d685d62d7c68",
+      "DisplayName": "Presentation",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

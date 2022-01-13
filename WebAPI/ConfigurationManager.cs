@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.Extensions.Configuration;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Web.Http;
 
 namespace WebAPI
 {
+    [ExcludeFromCodeCoverage]
     public static class ConfigurationManager
     {
         public static IConfiguration AppSetting { get; }

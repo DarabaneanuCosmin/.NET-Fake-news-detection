@@ -7,9 +7,11 @@ using WebAPI.Services;
 using Application.Features.Queries;
 using WebAPI.Interfaces;
 using WebAPI.Assemblers;
+using System.Diagnostics.CodeAnalysis;
 
 namespace WebAPI
 {
+    [ExcludeFromCodeCoverage]
     public class Program
     {
         public static void Main(string[] args)

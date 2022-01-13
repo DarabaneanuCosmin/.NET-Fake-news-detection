@@ -37,6 +37,8 @@ Included items must then not match any entries in the exclude list to remain inc
 								<ModulePath>presentation.test.dll</ModulePath>
 								<ModulePath>infrastructure.test.dll</ModulePath>
 								<ModulePath>moq.dll</ModulePath>
+                <ModulePath>domain.dll</ModulePath>
+                <ModulePath>webapiml.model.dll</ModulePath>
 								<ModulePath>xunit..*\.dll</ModulePath>
 							</Exclude>
 						</ModulePaths>
